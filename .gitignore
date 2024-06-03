@@ -1,0 +1,7 @@
+# Ignore picture formats, to upload pictures, first compress to zip
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
