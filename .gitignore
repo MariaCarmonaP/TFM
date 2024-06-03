@@ -1,7 +1,10 @@
-# Ignore picture formats, to upload pictures, first compress to zip
+# Ignore picture formats. To upload pictures, first compress to zip
 *.jpg
 *.jpeg
 *.png
 *.gif
 *.bmp
 *.svg
+
+# Ignore .conda folder
+/.conda/
