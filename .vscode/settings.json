@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "customPowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-ExecutionPolicy",
+                "ByPass",
+                "-NoExit",
+                "-Command",
+                "& C:\\Users\\sierr\\miniconda3\\shell\\condabin\\conda-hook.ps1 ; conda activate ./.conda"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "customPowerShell",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true
+}
