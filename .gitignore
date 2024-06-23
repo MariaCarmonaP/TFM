@@ -8,3 +8,7 @@
 
 # Ignore .conda folder
 /.conda/
+.vscode/
+
+**/*images/
+archive/
