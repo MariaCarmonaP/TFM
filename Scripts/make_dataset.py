@@ -3,6 +3,7 @@ import shutil
 import random
 from pathlib import Path
 
+
 def split_data(folder_in, folder_out, train_pct):
     train_folder = "train"
     validation_folder = "val"
@@ -42,7 +43,9 @@ def split_data(folder_in, folder_out, train_pct):
         shutil.move(label_file, validation_label_folder)
 
 
-folder_in = Path(r"Data\Datasets").joinpath("DATASET_v1").joinpath("raw_dataset")
-folder_out =Path(r"Data\Datasets").joinpath("DATASET_v1")
+folder_in = (
+    Path(r"Data\Datasets").joinpath("minimal_DATASET").joinpath("raw_dataset")
+)
+folder_out = Path(r"data\datasets").joinpath("minimal_DATASET")
 train_pct = 90
 split_data(folder_in, folder_out, train_pct)

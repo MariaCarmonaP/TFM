@@ -158,12 +158,11 @@ class Display(tk.Tk):
             chk.grid(row=0,column=col,sticky='n', padx=5)
             col += 1
         self.chkbuttons_frame.grid(sticky='n', pady=5, columnspan=2)
-        
+
         buttons_frame = ttk.Frame(master=self.frame)
         ttk.Button(master=buttons_frame, text='<', command=self.left).grid(row=0,column=0, sticky='s')
         ttk.Button(master=buttons_frame, text='>', command=self.right).grid(row=0,column=1, sticky='s')
         buttons_frame.grid(sticky='s', columnspan=2)
-            
 
 
 if __name__ == "__main__":
