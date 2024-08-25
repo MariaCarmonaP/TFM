@@ -59,14 +59,14 @@ def draw_bounding_boxes(image_path, label_path, output_folder):
         x_min, y_min, x_max, y_max = int(x_center - box_width / 2), int(y_center - box_height / 2), int(x_center + box_width / 2), int(y_center + box_height / 2)
         
         # Draw bounding box
-        cv2.rectangle(image, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
+        cv2.rectangle(image, (x_min, y_min), (x_max, y_max), (0, 255, 0), 1)
         
         # Optionally, you can also put text with class information
         class_id = box['class_id']
         draw_text(image, f'''{box['n']}''',
           font=cv2.FONT_HERSHEY_SIMPLEX,
           pos=(x_min, y_min - 20),
-          font_scale=0.8,
+          font_scale=0.5,
           font_thickness=1,
           text_color=(0,0,0),
           text_color_bg=(255, 255, 255),
@@ -91,8 +91,8 @@ def process_dataset(image_folder, label_folder, output_folder):
         draw_bounding_boxes(image_path, label_path, output_folder)
 
 if __name__ == "__main__":
-    image_folder = "C:\\Users\\sierr\\Documents\\Uni\\TFM\\furgonetas_27_06_2023"
-    label_folder = "C:\\Users\\sierr\\Documents\\Uni\\TFM\\labels"
+    image_folder = r"C:\Users\sierr\Documents\Uni\TFM\data\original_images\ligypes"
+    label_folder = r"C:\Users\sierr\Documents\Uni\TFM\archive\first_labelling\FURGONETAS_LIGERAS_Y_PESADAS"
     output_folder = "C:\\Users\\sierr\\Documents\\Uni\\TFM\\new_output"
     
     process_dataset(image_folder, label_folder, output_folder)

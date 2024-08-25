@@ -5,7 +5,7 @@
 *.gif
 *.bmp
 *.svg
-
+*.pdf
 # Ignore .conda folder
 /.conda/
 .vscode/
