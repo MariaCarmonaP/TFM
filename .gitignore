@@ -9,5 +9,6 @@
 *.txt
 # Ignore .conda folder
 /.conda/
+/pruebas/
 .vscode/
 archive/
