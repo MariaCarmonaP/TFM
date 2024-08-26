@@ -33,19 +33,26 @@ def split_data(folder_in, folder_out, train_pct):
     for f in train_files:
         img_file = os.path.join(folder_in, f)
         label_file = os.path.join(folder_in, f.replace(".jpg", ".txt"))
-        shutil.move(img_file, train_img_folder)
-        shutil.move(label_file, train_label_folder)
+        try:
+            shutil.move(img_file, train_img_folder)
+            shutil.move(label_file, train_label_folder)
+        except FileNotFoundError:
+            print(img_file)
 
     for f in validation_files:
         img_file = os.path.join(folder_in, f)
         label_file = os.path.join(folder_in, f.replace(".jpg", ".txt"))
-        shutil.move(img_file, validation_img_folder)
-        shutil.move(label_file, validation_label_folder)
+        try:
+            shutil.move(label_file, validation_label_folder)
+            shutil.move(img_file, validation_img_folder)
+        except FileNotFoundError:
+            print(img_file)
+
 
 
 folder_in = (
-    Path(r"Data\Datasets").joinpath("minimal_DATASET").joinpath("raw_dataset")
+    Path(r"/home/maria/TFM/data/datasets").joinpath("unfiltered_DATASET").joinpath("raw_dataset")
 )
-folder_out = Path(r"data\datasets").joinpath("minimal_DATASET")
-train_pct = 90
+folder_out = Path(r"/home/maria/TFM/data/datasets").joinpath("unfiltered_DATASET")
+train_pct = 70
 split_data(folder_in, folder_out, train_pct)

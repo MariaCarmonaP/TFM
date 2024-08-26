@@ -6,6 +6,7 @@
 *.bmp
 *.svg
 *.pdf
+*.txt
 # Ignore .conda folder
 /.conda/
 .vscode/

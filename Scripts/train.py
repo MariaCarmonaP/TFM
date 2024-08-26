@@ -1,5 +1,5 @@
 from ultralytics import YOLO  # type: ignore
-
+from torch import cuda
 # Load a model
 # model = YOLO("yolov8n-pose.yaml")  # build a new model from scratch
 
@@ -11,10 +11,23 @@ model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
 
 # Use the model
 model.train(
-    data=r"C:\Users\sierr\Documents\Uni\TFM\TFM\Data\Datasets\DATASET_v1\cfg.yaml",
-    epochs=100,
-    imgsz=640,
+    data=r"/home/maria/TFM/data/datasets/unfiltered_DATASET/cfg.yaml",
+    imgsz=608,
+    device="cuda:0" if cuda.is_available() else "cpu",
+    seed=4,
+    close_mosaic=0,
+    auto_augment="",
+    erasing=0.0,
+    crop_fraction=1.0,
+    hsv_h=0,
+    hsv_s=0,
+    hsv_v=0,
+    translate=0,
+    scale=0,
+    fliplr=0,
+    mosaic=0,
+    save_json=True,
 )  # train the model
-# metrics = model.val()  # evaluate model performance on the validation set
-# results = model("DATASET/IMAGES/")
+metrics = model.val()  # evaluate model performance on the validation set
+results = model("/home/maria/TFM/data/datasets/unfiltered_DATASET/results")
 # results = model("malaga_noche/", save=True)
