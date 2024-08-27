@@ -1,12 +1,13 @@
 # Ignore picture formats. To upload pictures, first compress to zip
-*.jpg
+data/datasets/**/*.jpg
+data/datasets/**/*.txt
 *.jpeg
-*.png
 *.gif
 *.bmp
 *.svg
-*.pdf
-*.txt
+*.pt
+
+*.cache
 # Ignore .conda folder
 /.conda/
 /pruebas/
