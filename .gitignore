@@ -1,6 +1,8 @@
 # Ignore picture formats. To upload pictures, first compress to zip
 data/datasets/**/*.jpg
+data/datasets/**/*.png
 data/datasets/**/*.txt
+data/original_images/**/*.jpg
 *.jpeg
 *.gif
 *.bmp
@@ -12,3 +14,7 @@ data/datasets/**/*.txt
 /pruebas/
 .vscode/
 archive/
+.env
+
+#Ignore specific large files
+documents/bib/Learning_data_augmentation.pdf
