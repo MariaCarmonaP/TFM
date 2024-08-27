@@ -358,7 +358,7 @@ class Display(tk.Tk):
 
 
 if __name__ == "__main__":
-    general_dir = r'C:\Users\sierr\Documents\Uni\TFM\archive\for_relabeling'
+    general_dir = r'C:\Users\sierr\Documents\Uni\TFM\archive\for_relabelling'
     unlabeled_images_folder = general_dir + r'\unlabeled_images'
     image_folder = general_dir + r'\images'
     label_folder = general_dir + r'\labels'

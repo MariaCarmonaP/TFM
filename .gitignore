@@ -7,6 +7,7 @@
 *.svg
 *.pdf
 *.txt
+.env
 # Ignore .conda folder
 /.conda/
 /pruebas/

@@ -66,8 +66,8 @@ def draw_bounding_boxes(image_path, label_path, output_folder):
         draw_text(image, f'''{box['n']}''',
           font=cv2.FONT_HERSHEY_SIMPLEX,
           pos=(x_min, y_min - 20),
-          font_scale=0.5,
-          font_thickness=1,
+          font_scale=2,
+          font_thickness=3,
           text_color=(0,0,0),
           text_color_bg=(255, 255, 255),
           line_type=cv2.LINE_AA
@@ -91,8 +91,8 @@ def process_dataset(image_folder, label_folder, output_folder):
         draw_bounding_boxes(image_path, label_path, output_folder)
 
 if __name__ == "__main__":
-    image_folder = r"C:\Users\sierr\Documents\Uni\TFM\data\original_images\ligypes"
-    label_folder = r"C:\Users\sierr\Documents\Uni\TFM\archive\first_labelling\FURGONETAS_LIGERAS_Y_PESADAS"
-    output_folder = "C:\\Users\\sierr\\Documents\\Uni\\TFM\\new_output"
+    image_folder = r"C:\Users\sierr\Documents\Uni\TFM\archive\for_relabelling\missed_pics"
+    label_folder = r"C:\Users\sierr\Documents\Uni\TFM\archive\for_relabelling\missed_labels"
+    output_folder = r"C:\Users\sierr\Documents\Uni\TFM\archive\for_relabelling\bigger_class_rect"
     
     process_dataset(image_folder, label_folder, output_folder)
