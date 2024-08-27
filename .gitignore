@@ -6,7 +6,6 @@ data/datasets/**/*.txt
 *.bmp
 *.svg
 *.pt
-
 *.cache
 # Ignore .conda folder
 /.conda/
