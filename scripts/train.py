@@ -38,5 +38,4 @@ with open(r"/home/maria/TFM/data/datasets/unfiltered_DATASET/results/time.txt", 
     file.write(str(end_time - start_time))
 
 metrics = model.val()  # evaluate model performance on the validation set
-#results = model("/home/maria/TFM/data/datasets/unfiltered_DATASET/results")
 # results = model("malaga_noche/", save=True)
