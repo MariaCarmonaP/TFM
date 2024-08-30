@@ -50,8 +50,8 @@ def split_data(folder_in, folder_out, train_pct):
 
 
 folder_in = (
-    Path(r"/home/maria/TFM/data/datasets").joinpath("filtered_DATASET").joinpath("raw_dataset")
+    Path(r"/home/maria/TFM/data/datasets").joinpath("filtered_DATASET_v2").joinpath("raw_dataset")
 )
-folder_out = Path(r"/home/maria/TFM/data/datasets").joinpath("filtered_DATASET")
+folder_out = Path(r"/home/maria/TFM/data/datasets").joinpath("filtered_DATASET_v2")
 train_pct = 70
 split_data(folder_in, folder_out, train_pct)
