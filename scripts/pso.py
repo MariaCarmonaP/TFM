@@ -1,50 +1,105 @@
+# pylint: disable=missing-function-docstring
 """------------------------------------------------------------------------------+
 #
-#	Nathan A. Rooy
-#	Simple Particle Swarm Optimization (PSO) with Python
-#	Last update: 2018-JAN-26
-#	Python 3.6
+# Nathan A. Rooy
+# Simple Particle Swarm Optimization (PSO) with Python
+# Last update: 2018-JAN-26
+# Python 3.6
 #
-#------------------------------------------------------------------------------+"""
+# ------------------------------------------------------------------------------+"""
 
 # --- IMPORT DEPENDENCIES ------------------------------------------------------+
 
-from random import random
-from random import uniform
+import random
+# import yaml  # type: ignore
+from ultralytics import YOLO  # type: ignore
+from torch import cuda
+
+N_DIM = 3
+# lr0, lrf, momentum
+
+# N_DIM = 3
+# batch, weight_decay, cls
+
+# N_DIM = 3
+# hsv_h, hsv_s, hsv_v
+
+# N_DIM = 2
+# conf, iou
 
 # --- MAIN ---------------------------------------------------------------------+
+# with open("args.yaml", "r", encoding="utf-8") as file:
+#     args = yaml.load(file, Loader=yaml.FullLoader)
+w = 0.7  # constant inertia weight (how much to weigh the previous velocity)
+c1 = 1.7  # cognative constant
+c2 = 1.7  # social constant
+
+
+def get_map(x, n_iter: int) -> float:
+    model = YOLO("yolov8n.pt")
+
+    # Use the model
+    model.train(
+        data=r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/cfg.yaml",
+        project=r"/home/maria/TFM/data/results/filtered_DATASET_v2/PSO",
+        name=str(n_iter),
+        epochs=40,
+        patience=5,
+        imgsz=608,
+        device="cuda:0" if cuda.is_available() else "cpu",
+        exists_ok=True,
+        seed=4,
+        optimizer="Adam",
+        close_mosaic=0,
+        hsv_h=0,
+        hsv_s=0,
+        hsv_v=0,
+        translate=0,
+        scale=0,
+        fliplr=0,
+        mosaic=0,
+        verbose=False,
+        cos_lr=True,
+        batch=16,
+        lr0=x[0],
+        lrf=x[1],
+        momentum=x[2],
+        weight_decay=0.0005,
+        cls=0.6,
+    )
+
+    return model.val().box.map
 
 
 class Particle:
+    """A single particle of the swarm"""
+
     def __init__(self, x0):
         self.position_i = []  # particle position
         self.velocity_i = []  # particle velocity
         self.pos_best_i = []  # best position individual
-        self.err_best_i = -1  # best error individual
-        self.err_i = -1  # error individual
+        self.map_best_i = -1  # best error individual
+        self.map_i = -1  # error individual
 
-        for i in range(0, num_dimensions):
-            self.velocity_i.append(uniform(-1, 1))
+        for i in range(0, N_DIM):
+            self.velocity_i.append(random.uniform(-1, 1))
             self.position_i.append(x0[i])
 
     # evaluate current fitness
-    def evaluate(self, costFunc):
-        self.err_i = costFunc(self.position_i)
+    def evaluate(self, cost_func):
+        self.map_i = cost_func(self.position_i)
 
         # check to see if the current position is an individual best
-        if self.err_i < self.err_best_i or self.err_best_i == -1:
+        if self.map_i > self.map_best_i or self.map_best_i == -1:
             self.pos_best_i = self.position_i.copy()
-            self.err_best_i = self.err_i
+            self.map_best_i = self.map_i
 
     # update new particle velocity
     def update_velocity(self, pos_best_g):
-        w = 0.5  # constant inertia weight (how much to weigh the previous velocity)
-        c1 = 1  # cognative constant
-        c2 = 2  # social constant
 
-        for i in range(0, num_dimensions):
-            r1 = random()
-            r2 = random()
+        for i in range(0, N_DIM):
+            r1 = random.random()
+            r2 = random.random()
 
             vel_cognitive = c1 * r1 * (self.pos_best_i[i] - self.position_i[i])
             vel_social = c2 * r2 * (pos_best_g[i] - self.position_i[i])
@@ -52,23 +107,26 @@ class Particle:
 
     # update the particle position based off new velocity updates
     def update_position(self, bounds):
-        for i in range(0, num_dimensions):
+        for i in range(0, N_DIM):
             self.position_i[i] = self.position_i[i] + self.velocity_i[i]
 
             # adjust maximum position if necessary
             if self.position_i[i] > bounds[i][1]:
                 self.position_i[i] = bounds[i][1]
 
-            # adjust minimum position if neseccary
+            # adjust minimum position if necessary
             if self.position_i[i] < bounds[i][0]:
                 self.position_i[i] = bounds[i][0]
 
 
-def minimize(costFunc, x0, bounds, num_particles, maxiter, verbose=False):
-    global num_dimensions
+def minimize(cost_func, x0, bounds, num_particles, maxiter, verbose=False):
 
-    num_dimensions = len(x0)
-    err_best_g = -1  # best error for group
+    if len(x0) != N_DIM:
+        raise ValueError(
+            "The number of dimensions must be equal to the number of elements in x0"
+        )
+
+    map_best_g = -1  # best error for group
     pos_best_g = []  # best position for group
 
     # establish the swarm
@@ -79,17 +137,26 @@ def minimize(costFunc, x0, bounds, num_particles, maxiter, verbose=False):
     # begin optimization loop
     i = 0
     while i < maxiter:
+        # write particle information to file
+        with open("/home/maria/TFM/data/results/filtered_DATASET_v2/PSO/particle_info.txt", "a", encoding="utf-8") as file:
+            for j in range(0, num_particles):
+                file.write(f"Iteration: {i}, Particle: {j}\n")
+                file.write(f"Position: {swarm[j].position_i}\n")
+                file.write(f"Velocity: {swarm[j].velocity_i}\n")
+                file.write(f"Best Position: {swarm[j].pos_best_i}\n")
+                file.write(f"Best Error: {swarm[j].map_best_i}\n")
+                file.write("\n")
         if verbose:
-            print(f"iter: {i:>4d}, best solution: {err_best_g:10.6f}")
+            print(f"iter: {i:>4d}, best solution: {map_best_g:10.6f}")
 
         # cycle through particles in swarm and evaluate fitness
         for j in range(0, num_particles):
-            swarm[j].evaluate(costFunc)
+            swarm[j].evaluate(cost_func)
 
             # determine if current particle is the best (globally)
-            if swarm[j].err_i < err_best_g or err_best_g == -1:
+            if swarm[j].map_i > map_best_g or map_best_g == -1:
                 pos_best_g = list(swarm[j].position_i)
-                err_best_g = float(swarm[j].err_i)
+                map_best_g = float(swarm[j].map_i)
 
         # cycle through swarm and update velocities and position
         for j in range(0, num_particles):
@@ -101,20 +168,17 @@ def minimize(costFunc, x0, bounds, num_particles, maxiter, verbose=False):
     if verbose:
         print("\nFINAL SOLUTION:")
         print(f"   > {pos_best_g}")
-        print(f"   > {err_best_g}\n")
+        print(f"   > {map_best_g}\n")
 
-    return err_best_g, pos_best_g
+    return map_best_g, pos_best_g
 
 
 # --- END ----------------------------------------------------------------------+
 
 if __name__ == "__main__":
-    def costFunc(x):
-        pass
-
-    x0 = [1, 1, 1, 1, 1]
-    bounds = [(-10, 10), (-10, 10), (-10, 10), (-10, 10), (-10, 10)]
-
-    err, pos = minimize(costFunc, x0, bounds, num_particles=15, maxiter=30, verbose=True)
-    print(f"final params: {pos}")
-    print(f"final error: {err}")
+    # --- RUN ----------------------------------------------------------------------+
+    seed = 4
+    random.seed(seed)
+    x0 = [0.001, 0.01, 0.937]
+    bounds = [(0.00001, 0.01), (0.01, 0.5), (0.7, 0.99)]
+    opt = minimize(get_map, x0, bounds, num_particles=25, maxiter=20, verbose=False)

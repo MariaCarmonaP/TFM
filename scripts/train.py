@@ -1,6 +1,8 @@
+"""Basic training script"""
+import time
 from ultralytics import YOLO  # type: ignore
 from torch import cuda
-import time
+
 # Load a model
 # model = YOLO("yolov8n-pose.yaml")  # build a new model from scratch
 
@@ -34,7 +36,10 @@ model.train(
 
 end_time = time.time()
 print("Time: ", end_time - start_time)
-with open(r"/home/maria/TFM/data/datasets/unfiltered_DATASET/results/time.txt", "w", encoding="utf-8") as file:
+with open(r"/home/maria/TFM/data/datasets/unfiltered_DATASET/results/time.txt",
+          "w",
+          encoding="utf-8",
+          ) as file:
     file.write(str(end_time - start_time))
 
 metrics = model.val()  # evaluate model performance on the validation set
