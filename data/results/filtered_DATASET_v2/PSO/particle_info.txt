@@ -1,0 +1,3300 @@
+Iteration: 0, Particle: 0
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.527903820525131, -0.7936679315385684, -0.20788351477863798]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 1
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6900554583951795, -0.8669698086408202, -0.19681797102985032]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 2
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8359100861754378, 0.600904702991617, 0.5303252050108769]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 3
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.5561436486193647, 0.07336001634962708, -0.44663471311709957]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 4
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6546709414292622, -0.7876334151369397, -0.571199134842167]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 5
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8549512628561209, 0.6578400975568388, 0.6133046934046469]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 6
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.6008956770859324, -0.6131287639615199, -0.38030008540092886]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 7
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.2539512048262602, 0.463789417757436, 0.7092967159826944]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 8
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.7601015027223987, -0.8265634947301563, 0.21170376743975972]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 9
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.34340291303294657, 0.011907551420830664, -0.6444196515184311]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 10
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.05282422482970972, -0.8213075854692193, 0.8691767277998161]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 11
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.7309683403701666, 0.09527773917410776, -0.39950852085335065]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 12
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8177405788293728, 0.14473360337178298, 0.7646344797575799]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 13
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.6960881764472693, 0.016744750665503183, -0.172107913736536]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 14
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.19782494437997888, -0.13791396541338585, -0.677358787756783]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 15
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.389776807134522, 0.6251846372692413, -0.913523061855503]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 16
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.9073560019929747, 0.2527014910798069, -0.4391335767675626]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 17
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.06924358975884437, -0.057519827770013965, -0.3143134691556879]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 18
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.9945577483442247, -0.6088530113333692, -0.1744106871853499]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 19
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.5946587676552073, 0.2653299635820381, -0.44739033008063367]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 20
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.28833849078529594, 0.49388536198092514, -0.3586621935005161]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 21
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.11705796716678418, 0.8086302030613155, -0.798041122564281]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 22
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.8767795159196483, -0.5422611195224705, 0.5303244826525517]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 23
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.23086415025739426, -0.5251656603493482, -0.33786600925653065]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 24
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6449206130068861, -0.0819624956596483, -0.9143776244359607]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 0
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.527903820525131, -0.7936679315385684, -0.20788351477863798]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 1
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6900554583951795, -0.8669698086408202, -0.19681797102985032]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 2
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8359100861754378, 0.600904702991617, 0.5303252050108769]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 3
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.5561436486193647, 0.07336001634962708, -0.44663471311709957]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 4
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6546709414292622, -0.7876334151369397, -0.571199134842167]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 5
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8549512628561209, 0.6578400975568388, 0.6133046934046469]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 6
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.6008956770859324, -0.6131287639615199, -0.38030008540092886]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 7
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.2539512048262602, 0.463789417757436, 0.7092967159826944]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 8
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.7601015027223987, -0.8265634947301563, 0.21170376743975972]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 9
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.34340291303294657, 0.011907551420830664, -0.6444196515184311]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 10
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.05282422482970972, -0.8213075854692193, 0.8691767277998161]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 11
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.7309683403701666, 0.09527773917410776, -0.39950852085335065]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 12
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8177405788293728, 0.14473360337178298, 0.7646344797575799]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 13
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.6960881764472693, 0.016744750665503183, -0.172107913736536]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 14
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.19782494437997888, -0.13791396541338585, -0.677358787756783]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 15
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.389776807134522, 0.6251846372692413, -0.913523061855503]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 16
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.9073560019929747, 0.2527014910798069, -0.4391335767675626]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 17
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.06924358975884437, -0.057519827770013965, -0.3143134691556879]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 18
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.9945577483442247, -0.6088530113333692, -0.1744106871853499]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 19
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.5946587676552073, 0.2653299635820381, -0.44739033008063367]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 20
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.28833849078529594, 0.49388536198092514, -0.3586621935005161]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 21
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.11705796716678418, 0.8086302030613155, -0.798041122564281]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 22
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.8767795159196483, -0.5422611195224705, 0.5303244826525517]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 23
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.23086415025739426, -0.5251656603493482, -0.33786600925653065]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 24
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6449206130068861, -0.0819624956596483, -0.9143776244359607]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 0
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.527903820525131, -0.7936679315385684, -0.20788351477863798]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 1
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6900554583951795, -0.8669698086408202, -0.19681797102985032]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 2
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8359100861754378, 0.600904702991617, 0.5303252050108769]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 3
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.5561436486193647, 0.07336001634962708, -0.44663471311709957]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 4
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6546709414292622, -0.7876334151369397, -0.571199134842167]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 5
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8549512628561209, 0.6578400975568388, 0.6133046934046469]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 6
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.6008956770859324, -0.6131287639615199, -0.38030008540092886]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 7
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.2539512048262602, 0.463789417757436, 0.7092967159826944]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 8
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.7601015027223987, -0.8265634947301563, 0.21170376743975972]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 9
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.34340291303294657, 0.011907551420830664, -0.6444196515184311]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 10
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.05282422482970972, -0.8213075854692193, 0.8691767277998161]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 11
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.7309683403701666, 0.09527773917410776, -0.39950852085335065]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 12
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.8177405788293728, 0.14473360337178298, 0.7646344797575799]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 13
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.6960881764472693, 0.016744750665503183, -0.172107913736536]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 14
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.19782494437997888, -0.13791396541338585, -0.677358787756783]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 15
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.389776807134522, 0.6251846372692413, -0.913523061855503]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 16
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.9073560019929747, 0.2527014910798069, -0.4391335767675626]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 17
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.06924358975884437, -0.057519827770013965, -0.3143134691556879]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 18
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.9945577483442247, -0.6088530113333692, -0.1744106871853499]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 19
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.5946587676552073, 0.2653299635820381, -0.44739033008063367]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 20
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.28833849078529594, 0.49388536198092514, -0.3586621935005161]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 21
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.11705796716678418, 0.8086302030613155, -0.798041122564281]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 22
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.8767795159196483, -0.5422611195224705, 0.5303244826525517]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 23
+Position: [0.001, 0.01, 0.937]
+Velocity: [0.23086415025739426, -0.5251656603493482, -0.33786600925653065]
+Best Position: []
+Best Error: -1
+
+Iteration: 0, Particle: 24
+Position: [0.001, 0.01, 0.937]
+Velocity: [-0.6449206130068861, -0.0819624956596483, -0.9143776244359607]
+Best Position: []
+Best Error: -1
+
+Iteration: 1, Particle: 0
+Position: [1e-05, 0.01, 0.7914815396549535]
+Velocity: [-0.36953267436759163, -0.5555675520769978, -0.14551846034504656]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 1
+Position: [1e-05, 0.01, 0.7992274202791049]
+Velocity: [-0.4830388208766256, -0.6068788660485741, -0.1377725797208952]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 2
+Position: [0.01, 0.4306332920941319, 0.99]
+Velocity: [0.5851370603228064, 0.4206332920941319, 0.3712276435076138]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 3
+Position: [1e-05, 0.06135201144473895, 0.7]
+Velocity: [-0.3893005540335553, 0.05135201144473895, -0.3126442991819697]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 4
+Position: [1e-05, 0.01, 0.7]
+Velocity: [-0.4582696590004835, -0.5513433905958578, -0.3998393943895169]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 5
+Position: [0.01, 0.4704880682897871, 0.99]
+Velocity: [0.5984658839992846, 0.4604880682897871, 0.4293132853832528]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 6
+Position: [0.01, 0.01, 0.7]
+Velocity: [0.42062697396015264, -0.42919013477306395, -0.26621005978065015]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 7
+Position: [0.01, 0.3346525924302052, 0.99]
+Velocity: [0.17776584337838214, 0.32465259243020517, 0.49650770118788606]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 8
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.532071051905679, -0.5785944463111093, 0.1481926372078318]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 9
+Position: [0.01, 0.018335285994581466, 0.7]
+Velocity: [0.24038203912306258, 0.008335285994581464, -0.4510937560629017]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 10
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.0369769573807968, -0.5749153098284535, 0.6084237094598712]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 11
+Position: [0.01, 0.07669441742187542, 0.7]
+Velocity: [0.5116778382591166, 0.06669441742187543, -0.27965596459734543]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 12
+Position: [0.01, 0.11131352236024808, 0.99]
+Velocity: [0.5724184051805609, 0.10131352236024808, 0.535244135830306]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 13
+Position: [0.01, 0.021721325465852228, 0.8165244603844248]
+Velocity: [0.48726172351308844, 0.011721325465852228, -0.1204755396155752]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 14
+Position: [0.01, 0.01, 0.7]
+Velocity: [0.1384774610659852, -0.09653977578937009, -0.4741511514297481]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 15
+Position: [1e-05, 0.44762924608846894, 0.7]
+Velocity: [-0.2728437649941654, 0.4376292460884689, -0.6394661432988521]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 16
+Position: [1e-05, 0.18689104375586482, 0.7]
+Velocity: [-0.6351492013950822, 0.1768910437558648, -0.3073935037372938]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 17
+Position: [0.01, 0.01, 0.7169805715910185]
+Velocity: [0.048470512831191054, -0.040263879439009775, -0.22001942840898153]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 18
+Position: [0.01, 0.01, 0.8149125189702551]
+Velocity: [0.6961904238409573, -0.4261971079333584, -0.12208748102974493]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 19
+Position: [1e-05, 0.19573097450742666, 0.7]
+Velocity: [-0.4162611373586451, 0.18573097450742665, -0.31317323105644357]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 20
+Position: [1e-05, 0.3557197533866476, 0.7]
+Velocity: [-0.20183694354970716, 0.34571975338664757, -0.25106353545036125]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 21
+Position: [0.01, 0.5, 0.7]
+Velocity: [0.08194057701674892, 0.5660411421429208, -0.5586287857949966]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 22
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.6137456611437537, -0.3795827836657293, 0.3712271378567862]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 23
+Position: [0.01, 0.01, 0.7004937935204286]
+Velocity: [0.16160490518017598, -0.36761596224454374, -0.23650620647957143]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 1, Particle: 24
+Position: [1e-05, 0.01, 0.7]
+Velocity: [-0.45144442910482024, -0.05737374696175381, -0.6400643371051724]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 0
+Position: [1e-05, 0.01, 0.8054193541431812]
+Velocity: [-0.25810197468667573, -0.3888972864538984, 0.013937814488227701]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 1
+Position: [1e-05, 0.01, 0.8932870347695389]
+Velocity: [-0.3352350949685538, -0.4248152062340019, 0.09405961449043401]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 2
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.4053295705536959, -0.5220855450775731, 0.1124942776225149]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 3
+Position: [1e-05, 0.015515028787105298, 0.99]
+Velocity: [-0.27083768196609453, -0.045836982657633654, 0.42036719221457075]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 4
+Position: [1e-05, 0.01, 0.7]
+Velocity: [-0.319161689066613, -0.3859403734171004, -0.0044071386373232685]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 5
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.410313227148286, -1.0868086230010585, 0.22412489648292697]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 6
+Position: [0.01, 0.01, 0.8852550489528854]
+Velocity: [0.27177595427826795, -0.30043309434114474, 0.18525504895288547]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 7
+Position: [0.01, 0.30448108675260965, 0.99]
+Velocity: [0.10867777137577304, -0.03017150567759555, 0.2704450368591314]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 8
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.36215784334246104, -0.4050161124177765, 0.030385936071985212]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 9
+Position: [0.01, 0.015448851777423963, 0.7504583099248268]
+Velocity: [0.15001678614801076, -0.002886434217157502, 0.05045830992482685]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 10
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.02402790247444664, -0.40244071687991745, 0.3353195585455185]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 11
+Position: [0.01, 0.01, 0.733283094939754]
+Velocity: [0.35373014764251376, -0.10984639497894566, 0.03328309493975398]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 12
+Position: [0.01, 0.0547628249594429, 0.99]
+Velocity: [0.3909535394076916, -0.05655069740080518, 0.20792594457259383]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 13
+Position: [0.01, 0.023805227236329867, 0.99]
+Velocity: [0.3151535995734327, 0.002083901770477639, 0.2722889991027823]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 14
+Position: [0.01, 0.01, 0.7]
+Velocity: [0.07622206120533523, -0.06757784305255905, -0.136569628785027]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 15
+Position: [1e-05, 0.01, 0.7]
+Velocity: [-0.19001351958137536, -0.6931443492143294, -0.31035678137663364]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 16
+Position: [1e-05, 0.01, 0.7]
+Velocity: [-0.44424366596612064, -0.2209367192424032, -0.05907730706901159]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 17
+Position: [0.01, 0.01, 0.7]
+Velocity: [0.012422131099138322, -0.02818471560730684, -0.07025230821440948]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 18
+Position: [0.01, 0.01, 0.9882012679577408]
+Velocity: [0.4746883416062075, -0.29833797555335084, 0.17328874898748567]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 19
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.2902862966685017, -0.24354767209476919, 0.37119619340828924]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 20
+Position: [1e-05, 0.3284931996336208, 0.9827099519779599]
+Velocity: [-0.14018772881065836, -0.027226553753026822, 0.28270995197795995]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 21
+Position: [0.01, 0.5, 0.7]
+Velocity: [0.037015113276730946, 0.15795413197079644, -0.20955198475570158]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 22
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.42776868330634604, -0.2657079485660105, 0.12530569493688481]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 23
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.0918023821026858, -0.2573311735711806, 0.4518434080036796]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 2, Particle: 24
+Position: [1e-05, 0.01, 0.9869812384657415]
+Velocity: [-0.31502284842941347, -0.040161622873227665, 0.28698123846574153]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 0
+Position: [1e-05, 0.01, 0.9198851216034232]
+Velocity: [-0.1801004849100346, -0.2722281005177289, 0.114465767460242]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 1
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.23177248683290355, -0.2973706443638013, 0.1262843687700615]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 2
+Position: [0.01, 0.01, 0.9213809215029457]
+Velocity: [0.27946432771531854, -0.36545988155430115, -0.06861907849705431]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 3
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.18791367151887195, -0.04086914174187291, 0.15130950422520684]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 4
+Position: [1e-05, 0.01, 0.9723954403892122]
+Velocity: [-0.22178611011290364, -0.27015826139197024, 0.27239544038921226]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 5
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.278606367352587, -0.7607660361007409, 0.08049302425269889]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 6
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.16758024050094872, -0.2103031660388013, 0.21081158066962455]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 7
+Position: [0.01, 0.04985674754044289, 0.99]
+Velocity: [0.060316120973946695, -0.25462433921216676, 0.11220117182900315]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 8
+Position: [0.01, 0.01, 0.9379212452768926]
+Velocity: [0.24321859734820847, -0.2835112786924435, -0.05207875472310739]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 9
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.08676110906547449, -0.007721588327556107, 0.3235741188821729]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 10
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.014963564040001523, -0.2817085018159422, 0.14414665290547163]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 11
+Position: [0.01, 0.01, 0.9534579804040766]
+Velocity: [0.24316676421089184, -0.07689247648526196, 0.2201748854643226]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 12
+Position: [0.01, 0.01, 0.9688032106921953]
+Velocity: [0.26392813336668314, -0.09590496521940503, -0.021196789307804637]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 13
+Position: [0.01, 0.018054692265669837, 0.99]
+Velocity: [0.19467791281567365, -0.00575053497066003, 0.03371601745533405]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 14
+Position: [0.01, 0.01, 0.7997374370662778]
+Velocity: [0.032643281302880245, -0.04730449013679133, 0.09973743706627775]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 15
+Position: [1e-05, 0.01, 0.7]
+Velocity: [-0.13203234779242232, -0.4852010444500306, -0.07998022803108071]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 16
+Position: [1e-05, 0.01, 0.8147440305987859]
+Velocity: [-0.3106097911658475, -0.15465570346968224, 0.11474403059878596]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 17
+Position: [1e-05, 0.01, 0.7410491714441892]
+Velocity: [-0.012811736113298583, -0.019729300925114785, 0.04104917144418928]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 18
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.3196368840418826, -0.20883658288734558, 0.012787088674403577]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 19
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.2021039081854013, -0.1704833704663384, 0.1278030521670964]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 20
+Position: [1e-05, 0.061406998071579455, 0.99]
+Velocity: [-0.09703327849332419, -0.2670862015620413, 0.10947532152043343]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 21
+Position: [0.01, 0.37229322485030947, 0.7348017759718048]
+Velocity: [0.005567288658718368, -0.12770677514969056, 0.03480177597180492]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 22
+Position: [1e-05, 0.01, 0.9431606848929539]
+Velocity: [-0.29758479882016065, -0.18599556399620734, -0.04683931510704614]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 23
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.04294061594844269, -0.18013182149982643, 0.17793426644756527]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 3, Particle: 24
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.21952774195662872, -0.028113136011259362, 0.045876219241043334]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 0
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.12549944206638583, -0.1905596703624102, 0.09374572178084625]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 1
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.15934866113794838, -0.20815945105466088, 0.015115083228417769]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 2
+Position: [0.01, 0.01, 0.9167759937304769]
+Velocity: [0.1913586577284544, -0.2558219170880108, -0.004604927772468813]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 3
+Position: [1e-05, 0.01, 0.9529691226326521]
+Velocity: [-0.12986686420581614, -0.028608399219311034, -0.03703087736734792]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 4
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.1536232048453071, -0.18911078297437917, 0.1495343972950789]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 5
+Position: [0.01, 0.01, 0.9699507136915392]
+Velocity: [0.1864115654955977, -0.5325362252705186, -0.020049286308460788]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 6
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.09464324085682527, -0.1472122162271609, 0.06446721696508731]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 7
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.026462965692668247, -0.209840837369817, 0.001430466307913378]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 8
+Position: [0.01, 0.01, 0.9001911672182967]
+Velocity: [0.15996112515223165, -0.19845789508471046, -0.037730078058595906]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 9
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.04248213510769908, -0.005405111829289274, 0.14460370272828285]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 10
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.008618527135889944, -0.19719595127115952, 0.010325618957438845]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 11
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.1657723958087565, -0.05382473353968337, 0.13821704769859605]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 12
+Position: [0.01, 0.01, 0.853908386612858]
+Velocity: [0.17501034913797717, -0.06713347565358352, -0.11489482407933742]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 13
+Position: [0.01, 0.01, 0.8567149303021202]
+Velocity: [0.11034493208524233, -0.008231637787463473, -0.13328506969787973]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 14
+Position: [0.01, 0.01, 0.9826858975203346]
+Velocity: [0.002138135371161757, -0.03311314309575393, 0.18294846045405688]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 15
+Position: [1e-05, 0.01, 0.7812833593108063]
+Velocity: [-0.09144552754015518, -0.3396407311150214, 0.08128335931080635]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 16
+Position: [1e-05, 0.01, 0.9755877638558761]
+Velocity: [-0.21706607880565634, -0.10825899242877757, 0.16084373325709028]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 17
+Position: [1e-05, 0.01, 0.8443819786189134]
+Velocity: [-0.0066024202122125135, -0.013810510647580349, 0.10333280717472415]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 18
+Position: [0.01, 0.01, 0.8866237264958231]
+Velocity: [0.2111008637468552, -0.1461856080211419, -0.10337627350417686]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 19
+Position: [1e-05, 0.01, 0.9474278532982614]
+Velocity: [-0.14037623624723103, -0.11933835932643688, -0.04257214670173859]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 20
+Position: [1e-05, 0.01, 0.9641091612666652]
+Velocity: [-0.06682516327119027, -0.2269937078526514, -0.02589083873333474]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 21
+Position: [1e-05, 0.10672440530816568, 0.9140009293037833]
+Velocity: [-0.016446188573890436, -0.2655688195421438, 0.17919915333197847]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 22
+Position: [1e-05, 0.01, 0.8947327776720705]
+Velocity: [-0.2064560796798309, -0.13019689479734514, -0.04842790722088343]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 23
+Position: [0.01, 0.01, 0.9761978673582853]
+Velocity: [0.008737379640472508, -0.1260922750498785, -0.013802132641714746]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 4, Particle: 24
+Position: [1e-05, 0.01, 0.8577403891426285]
+Velocity: [-0.15268116742567941, -0.019679195207881552, -0.13225961085737148]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 0
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.08727871207583168, -0.13339176925368712, 0.02344564472075613]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 1
+Position: [1e-05, 0.01, 0.9272965833492671]
+Velocity: [-0.10865198315147978, -0.1457116157382626, -0.06270341665073284]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 2
+Position: [0.01, 0.01, 0.9697848491365333]
+Velocity: [0.1296846887376495, -0.17907534196160754, 0.05300885540605643]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 3
+Position: [1e-05, 0.01, 0.8839768171208943]
+Velocity: [-0.0892340990866771, -0.020025879453517723, -0.06899230551175785]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 4
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.10590917115798948, -0.1323775480820654, 0.043068748215952184]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 5
+Position: [0.01, 0.01, 0.9084209281757761]
+Velocity: [0.1218752041957052, -0.372775357689363, -0.06152978551576306]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 6
+Position: [0.01, 0.01, 0.9520261623719113]
+Velocity: [0.04358734110593884, -0.10304855135901263, -0.03797383762808875]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 7
+Position: [0.01, 0.01, 0.9138909724431505]
+Velocity: [0.002765756995773334, -0.1468885861588719, -0.07610902755684945]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 8
+Position: [0.01, 0.01, 0.9247213911043488]
+Velocity: [0.1016808946150479, -0.13892052655929732, 0.024530223886052062]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 9
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.01148685333725631, -0.0037835782805024916, 0.019324411420559823]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 10
+Position: [1e-05, 0.01, 0.9066508951938159]
+Velocity: [-0.0041770013030118375, -0.13803716588981166, -0.0833491048061841]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 11
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.11159633792726174, -0.037677313477778356, 0.04553151010476215]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 12
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.11276790017788299, -0.04699343295750846, 0.18099073563352872]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 13
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.0513118455739404, -0.00576214645122443, 0.14435377344387218]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 14
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.019215466781041184, -0.02317920016702775, 0.09040945575963391]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 15
+Position: [1e-05, 0.01, 0.9283722102258406]
+Velocity: [-0.06303475336356819, -0.23774851178051498, 0.14708885091503432]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 16
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.15158548015352252, -0.07578129470014429, 0.08717509269468289]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 17
+Position: [1e-05, 0.01, 0.9519745802972743]
+Velocity: [-0.0022558990814522646, -0.009667357453306243, 0.10759260167836097]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 18
+Position: [0.01, 0.01, 0.9210268924270081]
+Velocity: [0.13512564954033598, -0.10232992561479931, 0.034403165931184955]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 19
+Position: [1e-05, 0.01, 0.8916493480458036]
+Velocity: [-0.09716686589051186, -0.08353685152850582, -0.05577850525245774]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 20
+Position: [1e-05, 0.01, 0.8935454265189269]
+Velocity: [-0.04567948261569654, -0.15889559549685597, -0.07056373474773832]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 21
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.009274570031874041, -0.23293281759127088, 0.1430514712322992]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 22
+Position: [1e-05, 0.01, 0.9681387956762181]
+Velocity: [-0.14266597628160008, -0.09113782635814159, 0.07340601800414756]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 23
+Position: [1e-05, 0.01, 0.8642106234365338]
+Velocity: [-0.015204885775106616, -0.08826459253491493, -0.11198724392175148]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 5, Particle: 24
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.10588856525401488, -0.013775436645517086, 0.15323218160662225]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 0
+Position: [1e-05, 0.01, 0.964235590778693]
+Velocity: [-0.06052420108244378, -0.09337423847758097, -0.02576440922130695]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 1
+Position: [1e-05, 0.01, 0.896821266078276]
+Velocity: [-0.07316430856095177, -0.10199813101678382, -0.030475317270991165]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 2
+Position: [0.01, 0.01, 0.9157336577166583]
+Velocity: [0.08651291044408609, -0.12535273937312527, -0.05405119141987502]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 3
+Position: [1e-05, 0.01, 0.9786922606690528]
+Velocity: [-0.06079116350327977, -0.014018115617462405, 0.09471544354815853]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 4
+Position: [1e-05, 0.01, 0.9585427938605635]
+Velocity: [-0.07250934757686715, -0.09266428365744576, -0.031457206139436505]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 5
+Position: [0.01, 0.01, 0.9065440620592844]
+Velocity: [0.07669975128578045, -0.2609427503825541, -0.0018768661164917152]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 6
+Position: [0.01, 0.01, 0.9018843352976813]
+Velocity: [0.007848211280318342, -0.07213398595130883, -0.05014182707423002]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 7
+Position: [1e-05, 0.01, 0.894236262490457]
+Velocity: [-0.013822289092053104, -0.10282201031121033, -0.019654709952693562]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 8
+Position: [0.01, 0.01, 0.9588854266639608]
+Velocity: [0.06088473323901925, -0.09724436859150812, 0.03416403555961199]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 9
+Position: [1e-05, 0.01, 0.9216289075051537]
+Velocity: [-0.010209843902053631, -0.002648504796351744, -0.0683710924948463]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 10
+Position: [1e-05, 0.01, 0.9001731637467348]
+Velocity: [-0.0010679332199971642, -0.09662601612286816, -0.006477731447081057]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 11
+Position: [0.01, 0.01, 0.9706516337890784]
+Velocity: [0.07367309741021542, -0.026374119434444846, -0.019348366210921588]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 12
+Position: [0.01, 0.01, 0.9499485644348498]
+Velocity: [0.06919818590581707, -0.03289540307025592, -0.04005143556515023]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 13
+Position: [0.01, 0.01, 0.934161359494097]
+Velocity: [0.009988685016029059, -0.004033502515857101, -0.05583864050590305]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 14
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.011172488977234843, -0.016225440116919423, 0.01960384522399182]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 15
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.043147211439957305, -0.16642395824636047, 0.10795937940318288]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 16
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.10574906109702883, -0.053046906290101, 0.026114540776590374]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 17
+Position: [0.0007966657100799094, 0.01, 0.99]
+Velocity: [0.0007866657100799093, -0.00676715021731437, 0.06961400558318405]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 18
+Position: [0.01, 0.01, 0.9789622221115999]
+Velocity: [0.08194299959577256, -0.07163094793035951, 0.05793532968459181]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 19
+Position: [1e-05, 0.01, 0.9655825231289576]
+Velocity: [-0.06692030664080845, -0.05847579606995407, 0.07393317508315395]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 20
+Position: [1e-05, 0.01, 0.9282096374141132]
+Velocity: [-0.030877506156850934, -0.11122691684779917, 0.034664210895186315]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 21
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.004254437052462565, -0.1630529723138896, 0.05955006884597579]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 22
+Position: [1e-05, 0.01, 0.940469654223902]
+Velocity: [-0.0980129039028385, -0.0637964784506991, -0.027669141452315978]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 23
+Position: [1e-05, 0.01, 0.975835697163645]
+Velocity: [-0.00829810437499652, -0.06178521477444045, 0.11162507372711127]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 6, Particle: 24
+Position: [1e-05, 0.01, 0.9328895627985337]
+Velocity: [-0.07313374373384972, -0.00964280565186196, -0.05711043720146626]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 0
+Position: [1e-05, 0.01, 0.9245269553461122]
+Velocity: [-0.04179604338707225, -0.06536196693430668, -0.03970863543258085]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 1
+Position: [1e-05, 0.01, 0.9310443426425504]
+Velocity: [-0.04832293634758216, -0.07139869171174866, 0.03422307656427452]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 2
+Position: [0.01, 0.01, 0.9370283157882596]
+Velocity: [0.0562926656385917, -0.08774691756118769, 0.02129465807160134]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 3
+Position: [1e-05, 0.01, 0.932543907071501]
+Velocity: [-0.04088110859490164, -0.009812680932223683, -0.046148353597551754]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 4
+Position: [1e-05, 0.01, 0.9114821661187076]
+Velocity: [-0.049129471070081525, -0.06486499856021204, -0.04706062774185595]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 5
+Position: [0.01, 0.01, 0.9491295615414501]
+Velocity: [0.04507693424883311, -0.18265992526778785, 0.042585499482165744]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 6
+Position: [1e-05, 0.01, 0.9218443577093922]
+Velocity: [-0.017169179597616005, -0.05049379016591618, 0.019960022411710913]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 7
+Position: [1e-05, 0.01, 0.942695454892311]
+Velocity: [-0.007942187275636786, -0.07197540721784722, 0.048459192401854]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 8
+Position: [0.01, 0.01, 0.9525120970253792]
+Velocity: [0.032327420275799205, -0.06807105801405568, -0.006373329638581631]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 9
+Position: [1e-05, 0.01, 0.8975213032768689]
+Velocity: [-0.005139320195242906, -0.0018539533574462206, -0.0241076042282848]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 10
+Position: [0.0011184144381131073, 0.01, 0.9585758413478354]
+Velocity: [0.0011084144381131073, -0.06763821128600771, 0.05840267760110052]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 11
+Position: [0.01, 0.01, 0.9245860618398609]
+Velocity: [0.047126829048283005, -0.01846188360411139, -0.04606557194921746]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 12
+Position: [0.01, 0.01, 0.8811746777308164]
+Velocity: [0.038699385915370935, -0.023026782149179144, -0.06877388670403342]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 13
+Position: [1e-05, 0.01, 0.9034770234922107]
+Velocity: [-0.018937527374508878, -0.0028234517610999706, -0.030684336001886227]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 14
+Position: [1e-05, 0.01, 0.9600399178490423]
+Velocity: [-0.005542404514570405, -0.011357808081843595, -0.02996008215095764]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 15
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.029225932093429687, -0.11649677077245232, 0.044874162614186586]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 16
+Position: [1e-05, 0.01, 0.9733721544339256]
+Velocity: [-0.07366356775748326, -0.0371328344030707, -0.016627845566074384]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 17
+Position: [0.0018332380304333397, 0.01, 0.99]
+Velocity: [0.0010365723203534303, -0.004737005152120059, 0.028552729134825396]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 18
+Position: [0.01, 0.01, 0.9305829829203802]
+Velocity: [0.04471514463457817, -0.05014166355125166, -0.048379239191219704]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 19
+Position: [1e-05, 0.01, 0.9461305956133162]
+Velocity: [-0.045747715166016056, -0.04093305724896784, -0.019451927515641444]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 20
+Position: [1e-05, 0.01, 0.969478722764867]
+Velocity: [-0.020516122635659006, -0.07785884179345942, 0.04126908535075384]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 21
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.0007403439668745336, -0.1141370806197227, 0.001099087175549407]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 22
+Position: [1e-05, 0.01, 0.9122926999033647]
+Velocity: [-0.0667557532377054, -0.04465753491548937, -0.02817695432053733]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 23
+Position: [1e-05, 0.01, 0.9525929403907141]
+Velocity: [-0.0034633573949194533, -0.04324965034210831, -0.023242756772931028]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 7, Particle: 24
+Position: [1e-05, 0.01, 0.9056602708609282]
+Velocity: [-0.0502053686697341, -0.006749963956303371, -0.027229291937605545]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 0
+Position: [1e-05, 0.01, 0.9066567148485364]
+Velocity: [-0.028686333000312175, -0.04575337685401468, -0.017870240497575837]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 1
+Position: [1e-05, 0.01, 0.9632354819801769]
+Velocity: [-0.03093397579822343, -0.04997908419822406, 0.032191139337626504]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 2
+Position: [0.01, 0.01, 0.9518558451516034]
+Velocity: [0.03513849427474563, -0.061422842292831376, 0.014827529363343767]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 3
+Position: [1e-05, 0.01, 0.9122586912329809]
+Velocity: [-0.026944070159036958, -0.006868876652556578, -0.02028521583852018]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 4
+Position: [1e-05, 0.01, 0.9082007564041373]
+Velocity: [-0.03276355751533159, -0.04540549899214842, -0.0032814097145702605]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 5
+Position: [0.01, 0.01, 0.9614558146493056]
+Velocity: [0.022940962322969983, -0.1278619476874515, 0.012326253107855472]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 6
+Position: [1e-05, 0.01, 0.9595795310456775]
+Velocity: [-0.00952550369400893, -0.03534565311614132, 0.03773517333628531]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 7
+Position: [1e-05, 0.01, 0.9683305019739886]
+Velocity: [-0.003826116004145361, -0.05038278505249305, 0.025635047081677603]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 8
+Position: [0.01, 0.01, 0.9265829283875289]
+Velocity: [0.012337301201545177, -0.047649740609838974, -0.025929168637850303]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 9
+Position: [1e-05, 0.01, 0.9416503846512374]
+Velocity: [-0.0015899536004753993, -0.0012977673502123544, 0.04412908137436854]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 10
+Position: [0.001672311240330243, 0.01, 0.9625845873045857]
+Velocity: [0.0005538968022171357, -0.04734674790020539, 0.004008745956750396]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 11
+Position: [0.01, 0.01, 0.9043372778374256]
+Velocity: [0.028544441194930308, -0.012923318522877973, -0.020248784002435346]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 12
+Position: [0.01, 0.01, 0.99]
+Velocity: [0.01735022592205864, -0.0161187475044254, 0.12749206419213555]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 13
+Position: [1e-05, 0.01, 0.9812299721226839]
+Velocity: [-0.010404012404726, -0.0019764162327699794, 0.07775294863047322]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 14
+Position: [1e-05, 0.01, 0.9200782844952795]
+Velocity: [-0.0016013453907052987, -0.007950465657290516, -0.03996163335376279]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 15
+Position: [1e-05, 0.01, 0.99]
+Velocity: [-0.019481036550860358, -0.08154773954071662, 0.0007145108618891843]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 16
+Position: [1e-05, 0.01, 0.937776435294263]
+Velocity: [-0.051203722419801354, -0.02599298408214949, -0.03559571913966254]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 17
+Position: [0.0005676564101187271, 0.01, 0.9898098356209744]
+Velocity: [-0.0012655816203146126, -0.0033159036064840408, -0.00019016437902566463]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 18
+Position: [0.01, 0.01, 0.9103176247167026]
+Velocity: [0.018655646161742097, -0.03509916448587616, -0.0202653582036776]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 19
+Position: [1e-05, 0.01, 0.9097679888587056]
+Velocity: [-0.030926901133661384, -0.028653140074277487, -0.03636260675461065]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 20
+Position: [1e-05, 0.01, 0.9355400182566278]
+Velocity: [-0.01326315417082466, -0.05450118925542159, -0.03393870450823919]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 21
+Position: [0.0017295211930370886, 0.01, 0.9501834000062509]
+Velocity: [0.0017195211930370886, -0.07989595643380588, -0.039816599993749056]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 22
+Position: [1e-05, 0.01, 0.9552942809489281]
+Velocity: [-0.044875747772112236, -0.031260274440842555, 0.04300158104556344]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 23
+Position: [1e-05, 0.01, 0.8956177518067453]
+Velocity: [-7.903450886550677e-05, -0.030274755239475815, -0.05697518858396881]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 8, Particle: 24
+Position: [1e-05, 0.01, 0.9837960717832149]
+Velocity: [-0.03415550612485317, -0.004724974769412359, 0.07813580092228681]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 0
+Position: [1e-05, 0.01, 0.9182941377094104]
+Velocity: [-0.019509535729580127, -0.03202736379781027, 0.011637422860874026]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 1
+Position: [1e-05, 0.01, 0.949493045493809]
+Velocity: [-0.018761703413672323, -0.034985358938756844, -0.013742436486367996]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 2
+Position: [0.01, 0.01, 0.9209288382953961]
+Velocity: [0.020330574320053384, -0.04299598960498196, -0.030927006856207355]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 3
+Position: [1e-05, 0.01, 0.9647893983583467]
+Velocity: [-0.017188143253931677, -0.004808213656789604, 0.052530707125365825]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 4
+Position: [1e-05, 0.01, 0.9393789941760695]
+Velocity: [-0.02130741802700664, -0.031783849294503896, 0.031178237771932175]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 5
+Position: [0.01, 0.01, 0.9348334867872418]
+Velocity: [0.0074457819748657925, -0.08950336338121603, -0.026622327862063866]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 6
+Position: [1e-05, 0.01, 0.9505907728627551]
+Velocity: [-0.004174930561483977, -0.024741957181298926, -0.008988758182922468]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 7
+Position: [1e-05, 0.01, 0.9406919010189575]
+Velocity: [-0.0009448661141013645, -0.035267949536745134, -0.02763860095503111]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 8
+Position: [0.008344217849567357, 0.01, 0.9228491301125549]
+Velocity: [-0.0016557821504326435, -0.03335481842688728, -0.003733798274974052]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 9
+Position: [0.0009046030158618555, 0.01, 0.965354740830061]
+Velocity: [0.0008946030158618554, -0.000908437145148648, 0.02370435617882364]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 10
+Position: [0.0007996471421892209, 0.01, 0.9216666313902314]
+Velocity: [-0.0008726640981410221, -0.03314272353014377, -0.0409179559143543]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 11
+Position: [0.01, 0.01, 0.9217291376165337]
+Velocity: [0.015536769697583422, -0.00904632296601458, 0.01739185977910822]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 12
+Position: [0.01, 0.01, 0.9124994944258745]
+Velocity: [0.002405813926740036, -0.01128312325309778, -0.07750050557412544]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 13
+Position: [1e-05, 0.01, 0.9047310762469709]
+Velocity: [-0.004430551925877985, -0.0013834913629389854, -0.07649889587571307]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 14
+Position: [0.001167395996000276, 0.01, 0.906052074559567]
+Velocity: [0.001157395996000276, -0.005565325960103361, -0.014026209935712498]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 15
+Position: [1e-05, 0.01, 0.959802754635281]
+Velocity: [-0.012659609671061826, -0.05708341767850163, -0.030197245364719]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 16
+Position: [1e-05, 0.01, 0.9123480390291079]
+Velocity: [-0.035481830683424025, -0.018195088857504642, -0.025428396265155178]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 17
+Position: [0.0007149172882539583, 0.01, 0.9695720412708349]
+Velocity: [0.00014726087813523117, -0.0023211325245388282, -0.020237794350139553]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 18
+Position: [0.01, 0.01, 0.952682014619055]
+Velocity: [0.00041399723075684824, -0.02456941514011331, 0.04236438990235235]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 19
+Position: [1e-05, 0.01, 0.9521549013313204]
+Velocity: [-0.020552331311013118, -0.02005719805199424, 0.04238691247261478]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 20
+Position: [1e-05, 0.01, 0.9146071238067096]
+Velocity: [-0.008186076245440616, -0.03815083247879511, -0.02093289444991814]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 21
+Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Velocity: [-0.0004453197931340977, -0.055927169503664116, -0.03796710978280141]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 22
+Position: [1e-05, 0.01, 0.9389509367110697]
+Velocity: [-0.029559743946197023, -0.021882192108589788, -0.01634334423785849]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 23
+Position: [0.0022999915113722557, 0.01, 0.9637631813437818]
+Velocity: [0.0022899915113722556, -0.02119232866763307, 0.06814542953703648]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 9, Particle: 24
+Position: [1e-05, 0.01, 0.8933588864321348]
+Velocity: [-0.022920602343436524, -0.003307482338588651, -0.09043718535108014]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 0
+Position: [1e-05, 0.01, 0.9308579288557327]
+Velocity: [-0.01312091597670581, -0.02241915465846719, 0.012563791146322313]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 1
+Position: [1e-05, 0.01, 0.9153867888853374]
+Velocity: [-0.010513746701964574, -0.02448975125712979, -0.03410625660847156]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 2
+Position: [0.01, 0.01, 0.9229385796442919]
+Velocity: [0.009928864337415109, -0.03009719272348737, 0.0020097413488958937]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 3
+Position: [1e-05, 0.01, 0.9043315768214447]
+Velocity: [-0.010424878564441313, -0.003365749559752723, -0.06045782153690192]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 4
+Position: [1e-05, 0.01, 0.9538040938585566]
+Velocity: [-0.013317656609736776, -0.022248694506152727, 0.014425099682487045]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 5
+Position: [0.006568724425660564, 0.01, 0.911494254121222]
+Velocity: [-0.0034312755743394364, -0.06265235436685122, -0.023339232666019748]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 6
+Position: [1e-05, 0.01, 0.9121988895608629]
+Velocity: [-0.0006244774202539436, -0.017319370026909246, -0.03839188330189216]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 7
+Position: [0.0009351956183274711, 0.01, 0.9148464026497208]
+Velocity: [0.0009251956183274711, -0.024687564675721592, -0.02584549836923669]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 8
+Position: [1e-05, 0.01, 0.9308826485358458]
+Velocity: [-0.009770816282034736, -0.023348372898821093, 0.008033518423290973]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 9
+Position: [0.0016576635039239132, 0.01, 0.9309303014742367]
+Velocity: [0.0007530604880620577, -0.0006359060016040536, -0.03442443935582431]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 10
+Position: [0.0001887822734905055, 0.01, 0.8930240622501834]
+Velocity: [-0.0006108648686987154, -0.023199906471100637, -0.028642569140048008]
+Best Position: [0.0007996471421892209, 0.01, 0.9216666313902314]
+Best Error: 0.7010594874269084
+
+Iteration: 10, Particle: 11
+Position: [0.01, 0.01, 0.9400317204667886]
+Velocity: [0.006353446750531042, -0.006332426076210205, 0.01830258285025488]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 12
+Position: [0.0017883838080807579, 0.01, 0.9104440601117733]
+Velocity: [-0.008211616191919242, -0.007898186277168446, -0.002055434314101259]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 13
+Position: [1e-05, 0.01, 0.9264937337369734]
+Velocity: [-0.0005760603563537033, -0.0009684439540572897, 0.021762657490002463]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 14
+Position: [0.0012710455069172932, 0.01, 0.9167515414250987]
+Velocity: [0.00010364951091701717, -0.0038957281720723522, 0.010699466865531724]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 15
+Position: [1e-05, 0.01, 0.9252124770469581]
+Velocity: [-0.00793108149147163, -0.039958392374951135, -0.034590277588322914]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 16
+Position: [1e-05, 0.01, 0.9082538407947811]
+Velocity: [-0.024534260979053646, -0.012736562200253248, -0.004094198234326753]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 17
+Position: [0.0013548616068500235, 0.01, 0.938608742763562]
+Velocity: [0.0006399443185960654, -0.0016247927671771798, -0.030963298507272877]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 18
+Position: [1e-05, 0.01, 0.9230957924932909]
+Velocity: [-0.012406124565901126, -0.017198590598079315, -0.029586222125764144]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 19
+Position: [1e-05, 0.01, 0.93161796401747]
+Velocity: [-0.013470392044490248, -0.014040038636395967, -0.020536937313850458]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 20
+Position: [1e-05, 0.01, 0.9200898802493669]
+Velocity: [-0.004771979659110928, -0.026705582735156577, 0.0054827564426573]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 21
+Position: [0.0005617763706316694, 0.01, 0.8889820061982832]
+Velocity: [-0.0007224250292713215, -0.03914901865256488, -0.02323428402516642]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 10, Particle: 22
+Position: [1e-05, 0.01, 0.9078209989487193]
+Velocity: [-0.01913476420595991, -0.015317534476012851, -0.03112993776235036]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 23
+Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Velocity: [-0.001613942097262025, -0.014834630067343148, -0.04157586841524338]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 10, Particle: 24
+Position: [1e-05, 0.01, 0.9412996832327979]
+Velocity: [-0.01508781435808769, -0.0023152376370120555, 0.04794079680066314]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 0
+Position: [1e-05, 0.01, 0.9344276309639713]
+Velocity: [-0.008668805175769788, -0.015693408260927032, 0.0035697021082385615]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 1
+Position: [1e-05, 0.01, 0.9144300502469012]
+Velocity: [-0.0048947572703303445, -0.01714282587999085, -0.0009567386384362248]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 2
+Position: [0.01, 0.01, 0.9431300283079244]
+Velocity: [0.0026271616422420285, -0.021068034906441158, 0.020191448663632466]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 3
+Position: [1e-05, 0.01, 0.9286004784935783]
+Velocity: [-0.005727948821250179, -0.0023560246918269056, 0.02426890167213356]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 4
+Position: [1e-05, 0.01, 0.9398921425027613]
+Velocity: [-0.007741570311667791, -0.015574086154306908, -0.013911951355795253]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 5
+Position: [1e-05, 0.01, 0.9243602126795933]
+Velocity: [-0.0077787806368914076, -0.04385664805679585, 0.012865958558371342]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 6
+Position: [0.0017603065124981757, 0.01, 0.9137874464330518]
+Velocity: [0.0017503065124981757, -0.012123559018836471, 0.0015885568721888095]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 7
+Position: [0.00146624556655625, 0.01, 0.927897283481579]
+Velocity: [0.0005310499482287787, -0.017281295273005114, 0.01305088083185809]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 8
+Position: [1e-05, 0.01, 0.9363388381934115]
+Velocity: [-0.006041756580366815, -0.016343861029174764, 0.005456189657565643]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 9
+Position: [0.001861768508997166, 0.01, 0.9027264529129646]
+Velocity: [0.00020410500507325285, -0.0004451342011228375, -0.028203848561272095]
+Best Position: [0.0016576635039239132, 0.01, 0.9309303014742367]
+Best Error: 0.6996516694016525
+
+Iteration: 11, Particle: 10
+Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Velocity: [0.0005733453411486437, -0.016239934529770444, 0.02898975565990531]
+Best Position: [0.0007996471421892209, 0.01, 0.9216666313902314]
+Best Error: 0.7010594874269084
+
+Iteration: 11, Particle: 11
+Position: [0.009880922305250058, 0.01, 0.9415768177646008]
+Velocity: [-0.00011907769474994246, -0.004432698253347143, 0.0015450972978121383]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 12
+Position: [1e-05, 0.01, 0.9685119357952978]
+Velocity: [-0.006846266016329641, -0.005528730394017912, 0.058067875683524534]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 13
+Position: [0.0019467178202846925, 0.01, 0.953305642820844]
+Velocity: [0.0019367178202846925, -0.0006779107678401028, 0.02681190908387058]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 14
+Position: [0.00021637047481996526, 0.01, 0.9361098791907908]
+Velocity: [-0.001054675032097328, -0.0027270097204506465, 0.019358337765692037]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 15
+Position: [1e-05, 0.01, 0.9075899544521344]
+Velocity: [-0.004647460073240603, -0.027970874662465794, -0.01762252259482365]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 16
+Position: [1e-05, 0.01, 0.9218761428100233]
+Velocity: [-0.016903708318583913, -0.008915593540177272, 0.013622302015242217]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 17
+Position: [0.00072854245041066, 0.01, 0.9120746042940638]
+Velocity: [-0.0006263191564393635, -0.0011373549370240258, -0.026534138469498127]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 18
+Position: [1e-05, 0.01, 0.9067317093170527]
+Velocity: [-0.007373207684170157, -0.01203901341865552, -0.016364083176238185]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 19
+Position: [1e-05, 0.01, 0.9186191099469005]
+Velocity: [-0.008615239649022752, -0.009828027045477175, -0.01299885407056945]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 20
+Position: [1e-05, 0.01, 0.9342448825451276]
+Velocity: [-0.002461409877754542, -0.018693907914609603, 0.014155002295760706]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 21
+Position: [0.0011820385898747483, 0.01, 0.8940370550483094]
+Velocity: [0.000620262219243079, -0.02740431305679541, 0.005055048850026301]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 11, Particle: 22
+Position: [1e-05, 0.01, 0.9458717311100611]
+Velocity: [-0.012005233330480633, -0.010722274133208995, 0.03805073216134178]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 11, Particle: 23
+Position: [1e-05, 0.01, 0.893084205037868]
+Velocity: [-0.0011297594680834174, -0.010384241047140204, -0.029103107890670367]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 11, Particle: 24
+Position: [1e-05, 0.01, 0.938240995688441]
+Velocity: [-0.009622804921541278, -0.0016206663459084388, -0.003058687544356852]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 0
+Position: [1e-05, 0.01, 0.9288607718193832]
+Velocity: [-0.005552327615114571, -0.010985385782648922, -0.0055668591445881535]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 1
+Position: [1e-05, 0.01, 0.9380008724964555]
+Velocity: [-0.0009614646681863838, -0.011999978115993595, 0.023570822249554334]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 2
+Position: [0.007515969755620872, 0.01, 0.9199068927915661]
+Velocity: [-0.0024840302443791275, -0.01474762443450881, -0.02322313551635828]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 3
+Position: [1e-05, 0.01, 0.9467218683416294]
+Velocity: [-0.0024400980010163852, -0.001649217284278834, 0.01812138984805113]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 4
+Position: [1e-05, 0.01, 0.9223150167917872]
+Velocity: [-0.003838309903019502, -0.010901860308014835, -0.017577125710974178]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 5
+Position: [1e-05, 0.01, 0.9440247630806833]
+Velocity: [-0.004545413864191131, -0.030699653639757095, 0.01966455040108995]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 6
+Position: [0.0007655096018406033, 0.01, 0.9408715474817004]
+Velocity: [-0.0009947969106575724, -0.00848649131318553, 0.027084101048648716]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 7
+Position: [0.0012662737541437612, 0.01, 0.9366131864091057]
+Velocity: [-0.00019997181241248886, -0.012096906691103578, 0.008715902927526801]
+Best Position: [0.00146624556655625, 0.01, 0.927897283481579]
+Best Error: 0.693413266204222
+
+Iteration: 12, Particle: 8
+Position: [1e-05, 0.01, 0.9324398493377786]
+Velocity: [-0.003431414789199271, -0.011440702720422335, -0.0038989888556328484]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 9
+Position: [0.0012677105401450043, 0.01, 0.922458977907166]
+Velocity: [-0.0005940579688521618, -0.0003115939407859862, 0.01973252499420137]
+Best Position: [0.0016576635039239132, 0.01, 0.9309303014742367]
+Best Error: 0.6996516694016525
+
+Iteration: 12, Particle: 10
+Position: [0.001066865059827599, 0.01, 0.9423364299023143]
+Velocity: [0.0003047374451884498, -0.01136795417083931, 0.02032261199222548]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 12, Particle: 11
+Position: [0.005289879905397129, 0.01, 0.9298984574849616]
+Velocity: [-0.0045910423998529295, -0.003102888777343, -0.011678360279639245]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 12
+Position: [1e-05, 0.01, 0.8859769764584806]
+Velocity: [-0.003966043997876607, -0.003870111275812538, -0.08253495933681723]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 13
+Position: [6.256572770865711e-05, 0.01, 0.9042855992042952]
+Velocity: [-0.0018841520925760354, -0.0004745375374880719, -0.04902004361654874]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 14
+Position: [0.0007780460001576699, 0.01, 0.9455742211165424]
+Velocity: [0.0005616755253377046, -0.0019089068043154525, 0.00946434192575163]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 15
+Position: [1e-05, 0.01, 0.9120517599264719]
+Velocity: [-0.0023489250804788844, -0.019579612263726055, 0.004461805474337489]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 16
+Position: [1e-05, 0.01, 0.9389277752418973]
+Velocity: [-0.011562321456255098, -0.00624091547812409, 0.017051632431874065]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 17
+Position: [0.000259493490258282, 0.01, 0.8964004199907029]
+Velocity: [-0.00046904896015237803, -0.000796148455916818, -0.015674184303361028]
+Best Position: [0.00072854245041066, 0.01, 0.9120746042940638]
+Best Error: 0.6927297125638732
+
+Iteration: 12, Particle: 18
+Position: [1e-05, 0.01, 0.9343048635173092]
+Velocity: [-0.0038501658669584785, -0.008427309393058862, 0.02757315420025657]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 19
+Position: [1e-05, 0.01, 0.9432798269744052]
+Velocity: [-0.005216632972195505, -0.006879618931834022, 0.02466071702750458]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 20
+Position: [1e-05, 0.01, 0.9270889233356996]
+Velocity: [-0.000844011030805072, -0.01308573554022672, -0.0071559592094280495]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 21
+Position: [0.0013401624835259205, 0.01, 0.9150236177493792]
+Velocity: [0.00015812389365117224, -0.01918301913975679, 0.02098656270106978]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 12, Particle: 22
+Position: [1e-05, 0.01, 0.9357479578935939]
+Velocity: [-0.0070145617176451385, -0.007505591893246295, -0.010123773216467229]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 12, Particle: 23
+Position: [0.0008207333046342606, 0.01, 0.9486854835352048]
+Velocity: [0.0008107333046342605, -0.007268968732998142, 0.0556012784973368]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 12, Particle: 24
+Position: [1e-05, 0.01, 0.9089688113405564]
+Velocity: [-0.00579729831595879, -0.001134466442135907, -0.029272184347884637]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 0
+Position: [1e-05, 0.01, 0.9213283171238295]
+Velocity: [-0.00337079332265592, -0.007689770047854244, -0.007532454695553716]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 1
+Position: [0.0018018401533143884, 0.01, 0.9461492223419589]
+Velocity: [0.0017918401533143884, -0.008399984681195516, 0.008148349845503415]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 2
+Position: [0.0026316381092377633, 0.01, 0.9308648513072231]
+Velocity: [-0.004884331646383109, -0.010323337104156166, 0.010957958515656934]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 3
+Position: [1e-05, 0.01, 0.9116643786895152]
+Velocity: [-0.00013860242685272963, -0.0011544520989951836, -0.035057489652114214]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 4
+Position: [1e-05, 0.01, 0.9226032997482851]
+Velocity: [-0.0011060276169656998, -0.007631302215610384, 0.00028828295649799854]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 5
+Position: [1e-05, 0.01, 0.9401037693987336]
+Velocity: [-0.002282057123300937, -0.021489757547829964, -0.0039209936819496315]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 6
+Position: [0.00035414143467705605, 0.01, 0.9433362485378438]
+Velocity: [-0.0004113681671635473, -0.0059405439192298706, 0.0024647010561434247]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 7
+Position: [0.0009047222213738687, 0.01, 0.9296137300879295]
+Velocity: [-0.00036155153276989243, -0.008467834683772504, -0.006999456321176239]
+Best Position: [0.00146624556655625, 0.01, 0.927897283481579]
+Best Error: 0.693413266204222
+
+Iteration: 13, Particle: 8
+Position: [1e-05, 0.01, 0.9273882087787462]
+Velocity: [-0.0016041755353819894, -0.008008491904295634, -0.005051640559032444]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 9
+Position: [0.0013195983633422542, 0.01, 0.9452553060225853]
+Velocity: [5.188782319724992e-05, -0.00021811575855019033, 0.022796328115419345]
+Best Position: [0.0016576635039239132, 0.01, 0.9309303014742367]
+Best Error: 0.6996516694016525
+
+Iteration: 13, Particle: 10
+Position: [0.0006122811668881085, 0.01, 0.9218606828322291]
+Velocity: [-0.00045458389293949057, -0.007957567919587516, -0.0204757470700851]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 13, Particle: 11
+Position: [1e-05, 0.01, 0.9202499138216564]
+Velocity: [-0.005454289979439699, -0.0021720221441401, -0.00964854366330517]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 12
+Position: [1e-05, 0.01, 0.964685838453624]
+Velocity: [-0.0019498885849594826, -0.0027090778930687763, 0.07870886199514335]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 13
+Position: [0.0009321739265101879, 0.01, 0.9472883279878411]
+Velocity: [0.0008696081988015308, -0.0003321762762416503, 0.04300272878354589]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 14
+Position: [0.001178554225217808, 0.01, 0.9403122243018484]
+Velocity: [0.0004005082250601382, -0.0013362347630208166, -0.005261996814694055]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 15
+Position: [1e-05, 0.01, 0.9293883339056231]
+Velocity: [-0.0007399505855456815, -0.013705728584608237, 0.0173365739791512]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 16
+Position: [1e-05, 0.01, 0.9471490182853874]
+Velocity: [-0.007823350652624928, -0.004368640834686863, 0.008221243043490117]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 17
+Position: [0.0010214162090777393, 0.01, 0.8942953581074307]
+Velocity: [0.0007619227188194574, -0.0005573039191417726, -0.0021050618832722003]
+Best Position: [0.00072854245041066, 0.01, 0.9120746042940638]
+Best Error: 0.6927297125638732
+
+Iteration: 13, Particle: 18
+Position: [1e-05, 0.01, 0.9341960426087962]
+Velocity: [-0.0013840365949103041, -0.005899116575141203, -0.00010882090851301734]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 19
+Position: [1e-05, 0.01, 0.9328671476123368]
+Velocity: [-0.0028376082984164323, -0.004815733252283815, -0.010412679362068404]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 20
+Position: [0.0002981681620595571, 0.01, 0.9188578276866223]
+Velocity: [0.00028816816205955707, -0.009160014878158703, -0.008231095649077334]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 21
+Position: [0.0008173717353869174, 0.01, 0.9310913002280897]
+Velocity: [-0.0005227907481390031, -0.013428113397829752, 0.01606768247871045]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 13, Particle: 22
+Position: [1e-05, 0.01, 0.9176036745079315]
+Velocity: [-0.003521091588660292, -0.005253914325272406, -0.01814428338566238]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 13, Particle: 23
+Position: [0.0010691797101849275, 0.01, 0.9184330945239871]
+Velocity: [0.00024844640555066693, -0.005088278113098699, -0.03025238901121767]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 13, Particle: 24
+Position: [1e-05, 0.01, 0.9521312492974082]
+Velocity: [-0.003119443692051048, -0.0007941265094951349, 0.04316243795685186]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 0
+Position: [1e-05, 0.01, 0.9184141252573962]
+Velocity: [-0.0018437193179348644, -0.00538283903349797, -0.002914191866433322]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 1
+Position: [0.00028650435375520236, 0.01, 0.9322349836623461]
+Velocity: [-0.001515335799559186, -0.005879989276836861, -0.013914238679612763]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 2
+Position: [1e-05, 0.01, 0.9352812670649369]
+Velocity: [-0.004249167719553259, -0.007226335972909316, 0.0044164157577137875]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 3
+Position: [0.0014824444750618291, 0.01, 0.9339360425413177]
+Velocity: [0.0014724444750618291, -0.0008081164692966285, 0.022271663851802452]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 4
+Position: [0.0008165699832719617, 0.01, 0.9350622788354684]
+Velocity: [0.0008065699832719617, -0.005341911550927269, 0.012458979087183322]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 5
+Position: [1e-05, 0.01, 0.9253246301910746]
+Velocity: [-0.0006977074046778012, -0.015042830283480973, -0.014779139207659013]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 6
+Position: [0.00038913800235430076, 0.01, 0.9301788583168806]
+Velocity: [3.4996567677244704e-05, -0.004158380743460909, -0.0131573902209632]
+Best Position: [0.00035414143467705605, 0.01, 0.9433362485378438]
+Best Error: 0.6949179212009909
+
+Iteration: 14, Particle: 7
+Position: [0.0004913985911419863, 0.01, 0.9241682289183774]
+Velocity: [-0.00041332363023188247, -0.005927484278640753, -0.005445501169552076]
+Best Position: [0.0009047222213738687, 0.01, 0.9296137300879295]
+Best Error: 0.7017576038054659
+
+Iteration: 14, Particle: 8
+Position: [1e-05, 0.01, 0.9285208880383328]
+Velocity: [-0.0003251080577098926, -0.005605944333006944, 0.0011326792595865976]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 9
+Position: [0.0017184275692184606, 0.01, 0.9349703002004326]
+Velocity: [0.00039882920587620634, -0.0001526810309851332, -0.01028500582215275]
+Best Position: [0.0016576635039239132, 0.01, 0.9309303014742367]
+Best Error: 0.6996516694016525
+
+Iteration: 14, Particle: 10
+Position: [0.00047838750761238847, 0.01, 0.9078191508715391]
+Velocity: [-0.00013389365927572, -0.005570297543711261, -0.014041531960690008]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 14, Particle: 11
+Position: [1e-05, 0.01, 0.9213468170824475]
+Velocity: [-0.003451276961586212, -0.00152041550089807, 0.0010969032607910801]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 12
+Position: [1e-05, 0.01, 0.9086369735326487]
+Velocity: [-0.0005385797959174965, -0.0018963545251481433, -0.05604886492097526]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 13
+Position: [0.0011392798626490195, 0.01, 0.9443094336814652]
+Velocity: [0.00020710593613883146, -0.0002325233933691552, -0.002978894306375931]
+Best Position: [0.0009321739265101879, 0.01, 0.9472883279878411]
+Best Error: 0.7008246837019984
+
+Iteration: 14, Particle: 14
+Position: [0.0005445352227629325, 0.01, 0.9290787453996611]
+Velocity: [-0.0006340190024548755, -0.0009353643341145716, -0.011233478902187299]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 15
+Position: [0.0003963315609075605, 0.01, 0.9456959666395918]
+Velocity: [0.0003863315609075605, -0.009594010009225766, 0.016307632733968583]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 16
+Position: [1e-05, 0.01, 0.9437741330895795]
+Velocity: [-0.005206071090083809, -0.003058048584280804, -0.003374885195808007]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 17
+Position: [0.0008242584873271567, 0.01, 0.9024900779752286]
+Velocity: [-0.00019715772175058264, -0.0003901127433992408, 0.008194719867797991]
+Best Position: [0.00072854245041066, 0.01, 0.9120746042940638]
+Best Error: 0.6927297125638732
+
+Iteration: 14, Particle: 18
+Position: [0.0003522538955234181, 0.01, 0.9149404721774684]
+Velocity: [0.00034225389552341805, -0.004129381602598842, -0.0192555704313278]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 19
+Position: [1e-05, 0.01, 0.9238432918333581]
+Velocity: [-0.0011722910267710817, -0.0033710132765986706, -0.009023855778978728]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 20
+Position: [0.0010592187427250193, 0.01, 0.9257964244524818]
+Velocity: [0.0007610505806654622, -0.006412010414711092, 0.006938596765859499]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 21
+Position: [0.0009996389747367158, 0.01, 0.9314115715566469]
+Velocity: [0.00018226723934979845, -0.009399679378480826, 0.00032027132855718147]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 14, Particle: 22
+Position: [1e-05, 0.01, 0.9399086799289859]
+Velocity: [-0.0010756624983708988, -0.003677740027690684, 0.022305005421054413]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 14, Particle: 23
+Position: [0.00033545432931501385, 0.01, 0.907056782384324]
+Velocity: [-0.0007337253808699137, -0.0035617946791690887, -0.011376312139663171]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 14, Particle: 24
+Position: [1e-05, 0.01, 0.9121349441032511]
+Velocity: [-0.0012449454553156293, -0.0005558885566465944, -0.039996305194157034]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 0
+Position: [1e-05, 0.01, 0.9210517741034254]
+Velocity: [-0.0007747675146301252, -0.003767987323448579, 0.0026376488460292434]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 1
+Position: [0.0008828846006919145, 0.01, 0.9221163805301934]
+Velocity: [0.0005963802469367122, -0.004115992493785803, -0.010118603132152734]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 2
+Position: [1e-05, 0.01, 0.9228388778016097]
+Velocity: [-0.0025617882414177323, -0.005058435181036521, -0.01244238926332724]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 3
+Position: [0.0015947768338642138, 0.01, 0.9362686922639074]
+Velocity: [0.0001123323588023846, -0.0005656815285076398, 0.0023326497225897823]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 4
+Position: [0.0013619274948882796, 0.01, 0.9398921920622034]
+Velocity: [0.0005453575116163179, -0.0037393380856490877, 0.004829913226734994]
+Best Position: [0.0008165699832719617, 0.01, 0.9350622788354684]
+Best Error: 0.7001889398232477
+
+Iteration: 15, Particle: 5
+Position: [0.0004213373983583937, 0.01, 0.9242474970558008]
+Velocity: [0.0004113373983583937, -0.010529981198436681, -0.0010771331352737844]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 6
+Position: [0.0006484649204420308, 0.01, 0.9267160198794648]
+Velocity: [0.0002593269180877301, -0.002910866520422636, -0.0034628384374158347]
+Best Position: [0.00035414143467705605, 0.01, 0.9433362485378438]
+Best Error: 0.6949179212009909
+
+Iteration: 15, Particle: 7
+Position: [0.0007655328939005464, 0.01, 0.9277332231991362]
+Velocity: [0.0002741343027585602, -0.004149238995048527, 0.0035649942807588248]
+Best Position: [0.0009047222213738687, 0.01, 0.9296137300879295]
+Best Error: 0.7017576038054659
+
+Iteration: 15, Particle: 8
+Position: [0.0005802391766605752, 0.01, 0.9324150291135892]
+Velocity: [0.0005702391766605752, -0.003924161033104861, 0.0038941410752564385]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 9
+Position: [0.0015513503261103646, 0.01, 0.9174212523796309]
+Velocity: [-0.00016707724310809595, -0.00010687672168959324, -0.017549047820801668]
+Best Position: [0.0016576635039239132, 0.01, 0.9309303014742367]
+Best Error: 0.6996516694016525
+
+Iteration: 15, Particle: 10
+Position: [0.0008199894419965311, 0.01, 0.9222785576959971]
+Velocity: [0.00034160193438414257, -0.0038992082805978825, 0.01445940682445801]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 15, Particle: 11
+Position: [1e-05, 0.01, 0.9289054605614343]
+Velocity: [-0.0020491678490887717, -0.001064290850628649, 0.00755864347898682]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 12
+Position: [0.00045933635641189394, 0.01, 0.9345947791536429]
+Velocity: [0.0004493363564118939, -0.0013274481676037002, 0.025957805620994135]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 13
+Position: [0.00028594804739275677, 0.01, 0.9179612834376135]
+Velocity: [-0.0008533318152562627, -0.00016276637535840864, -0.02634815024385174]
+Best Position: [0.0009321739265101879, 0.01, 0.9472883279878411]
+Best Error: 0.7008246837019984
+
+Iteration: 15, Particle: 14
+Position: [0.000327657506399585, 0.01, 0.9189727977397245]
+Velocity: [-0.00021687771636334752, -0.0006547550338802001, -0.010105947659936531]
+Best Position: [0.0005445352227629325, 0.01, 0.9290787453996611]
+Best Error: 0.7025913892481868
+
+Iteration: 15, Particle: 15
+Position: [0.0007339619611879932, 0.01, 0.9567357824887863]
+Velocity: [0.0003376304002804327, -0.006715807006458036, 0.011039815849194537]
+Best Position: [0.0003963315609075605, 0.01, 0.9456959666395918]
+Best Error: 0.692317207069588
+
+Iteration: 15, Particle: 16
+Position: [1e-05, 0.01, 0.9345047991410306]
+Velocity: [-0.0033739753963050257, -0.002140634008996563, -0.009269333948548904]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 17
+Position: [0.0005866381379816499, 0.01, 0.9138743564206521]
+Velocity: [-0.00023762034934550683, -0.00027307892037946855, 0.011384278445423463]
+Best Position: [0.0008242584873271567, 0.01, 0.9024900779752286]
+Best Error: 0.7057648222438218
+
+Iteration: 15, Particle: 18
+Position: [0.0014220461192736111, 0.01, 0.9230920826649818]
+Velocity: [0.001069792223750193, -0.0028905671218191894, 0.008151610487513344]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 19
+Position: [1e-05, 0.01, 0.9382719584049276]
+Velocity: [-6.568936619336216e-06, -0.0023597092936190694, 0.014428666571569524]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 20
+Position: [0.001307111513132968, 0.01, 0.9299317366976521]
+Velocity: [0.0002478927704079487, -0.004488407290297764, 0.004135312245170308]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 21
+Position: [0.0012634562027363603, 0.01, 0.9204633999922559]
+Velocity: [0.0002638172279996445, -0.006579775564936578, -0.010948171564390983]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 15, Particle: 22
+Position: [0.0006461378648316761, 0.01, 0.933901543726431]
+Velocity: [0.000636137864831676, -0.0025744180193834785, -0.0060071362025549]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 15, Particle: 23
+Position: [0.0006524083256819311, 0.01, 0.9385915051479533]
+Velocity: [0.0003169539963669173, -0.002493256275418362, 0.031534722763629335]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 15, Particle: 24
+Position: [7.720331039916348e-05, 0.01, 0.9379711271346156]
+Velocity: [6.720331039916349e-05, -0.00038912198965261607, 0.02583618303136452]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 16, Particle: 0
+Position: [1e-05, 0.01, 0.9254767222279768]
+Velocity: [-2.6501252316807932e-05, -0.002637591126414005, 0.0044249481245514305]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 16, Particle: 1
+Position: [0.0010325035540216904, 0.01, 0.915066722135602]
+Velocity: [0.00014961895332977592, -0.0028811947456500618, -0.007049658394591364]
+Best Position: [0.0008828846006919145, 0.01, 0.9221163805301934]
+Best Error: 0.6934902362850304
+
+Iteration: 16, Particle: 2
+Position: [1e-05, 0.01, 0.9331910533255244]
+Velocity: [-0.0013806226067228635, -0.0035409046267255643, 0.010352175523914722]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 16, Particle: 3
+Position: [0.001374583059938943, 0.01, 0.9174426799334353]
+Velocity: [-0.00022019377392527064, -0.0003959770699553479, -0.018826012330472063]
+Best Position: [0.0015947768338642138, 0.01, 0.9362686922639074]
+Best Error: 0.6927626363081881
+
+Iteration: 16, Particle: 4
+Position: [0.0008281372211895586, 0.01, 0.9337676384757567]
+Velocity: [-0.000533790273698721, -0.0026175366599543613, -0.0061245535864466825]
+Best Position: [0.0008165699832719617, 0.01, 0.9350622788354684]
+Best Error: 0.7001889398232477
+
+Iteration: 16, Particle: 5
+Position: [0.0007494803020717741, 0.01, 0.922441949299299]
+Velocity: [0.00032814290371338046, -0.007370986838905676, -0.001805547756501753]
+Best Position: [0.0004213373983583937, 0.01, 0.9242474970558008]
+Best Error: 0.7024512737424933
+
+Iteration: 16, Particle: 6
+Position: [0.000866564361040989, 0.01, 0.9211051444244471]
+Velocity: [0.00021809944059895812, -0.0020376065642958453, -0.005610875455017676]
+Best Position: [0.0006484649204420308, 0.01, 0.9267160198794648]
+Best Error: 0.6969734577292652
+
+Iteration: 16, Particle: 7
+Position: [0.0008991835476100968, 0.01, 0.9298210648571558]
+Velocity: [0.00013365065370955033, -0.0029044672965339684, 0.002087841658019573]
+Best Position: [0.0007655328939005464, 0.01, 0.9277332231991362]
+Best Error: 0.7042794576611991
+
+Iteration: 16, Particle: 8
+Position: [0.001092072946213966, 0.01, 0.9291798717212891]
+Velocity: [0.0005118337695533907, -0.0027469127231734025, -0.003235157392300046]
+Best Position: [0.0005802391766605752, 0.01, 0.9324150291135892]
+Best Error: 0.6966075165704556
+
+Iteration: 16, Particle: 9
+Position: [0.0013269459934935012, 0.01, 0.9219050182888748]
+Velocity: [-0.0002244043326168634, -7.481370518271527e-05, 0.004483765909243906]
+Best Position: [0.0016576635039239132, 0.01, 0.9309303014742367]
+Best Error: 0.6996516694016525
+
+Iteration: 16, Particle: 10
+Position: [0.0008540320760035551, 0.01, 0.931977485019097]
+Velocity: [3.404263400702407e-05, -0.0027294457964185176, 0.009698927323099984]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 16, Particle: 11
+Position: [1e-05, 0.01, 0.9336824746752623]
+Velocity: [-0.0010676914703405635, -0.0007450035954400542, 0.004777014113827984]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 16, Particle: 12
+Position: [0.001113964970001877, 0.01, 0.9362905935203352]
+Velocity: [0.0006546286135899832, -0.00092921371732259, 0.0016958143666923262]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 16, Particle: 13
+Position: [0.001148816307568884, 0.01, 0.9532483017193819]
+Velocity: [0.0008628682601761271, -0.00011393646275088605, 0.03528701828176836]
+Best Position: [0.0009321739265101879, 0.01, 0.9472883279878411]
+Best Error: 0.7008246837019984
+
+Iteration: 16, Particle: 14
+Position: [0.0009018905009591134, 0.01, 0.9179854771520426]
+Velocity: [0.0005742329945595284, -0.00045832852371614004, -0.0009873205876819594]
+Best Position: [0.0005445352227629325, 0.01, 0.9290787453996611]
+Best Error: 0.7025913892481868
+
+Iteration: 16, Particle: 15
+Position: [0.0009591902152348808, 0.01, 0.9639117765800017]
+Velocity: [0.0002252282540468875, -0.004701064904520625, 0.007175994091215395]
+Best Position: [0.0007339619611879932, 0.01, 0.9567357824887863]
+Best Error: 0.7034311883002898
+
+Iteration: 16, Particle: 16
+Position: [1e-05, 0.01, 0.9272145233855006]
+Velocity: [-0.0020915084106598774, -0.001498443806297594, -0.007290275755529958]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 16, Particle: 17
+Position: [0.0008885333940907526, 0.01, 0.9231573364848558]
+Velocity: [0.00030189525610910267, -0.00019115524426562797, 0.009282980064203666]
+Best Position: [0.0008242584873271567, 0.01, 0.9024900779752286]
+Best Error: 0.7057648222438218
+
+Iteration: 16, Particle: 18
+Position: [0.0019836712768433857, 0.01, 0.9272637367321855]
+Velocity: [0.0005616251575697746, -0.0020233969852734325, 0.004171654067203717]
+Best Position: [0.0014220461192736111, 0.01, 0.9230920826649818]
+Best Error: 0.6933808879301268
+
+Iteration: 16, Particle: 19
+Position: [0.0008194365264868855, 0.01, 0.9331725104600151]
+Velocity: [0.0008094365264868855, -0.0016517965055333486, -0.005099447944912457]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 16, Particle: 20
+Position: [0.0010470989424196983, 0.01, 0.921118352485903]
+Velocity: [-0.00026001257071326983, -0.0031418851032084345, -0.008813384211749004]
+Best Position: [0.001307111513132968, 0.01, 0.9299317366976521]
+Best Error: 0.6945000918696249
+
+Iteration: 16, Particle: 21
+Position: [0.0009880350290447796, 0.01, 0.9100111309370614]
+Velocity: [-0.00027542117369158084, -0.004605842895455604, -0.010452269055194509]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 16, Particle: 22
+Position: [0.0011504438423659315, 0.01, 0.9184381752301152]
+Velocity: [0.0005043059775342553, -0.001802092613568435, -0.015463368496315761]
+Best Position: [0.0006461378648316761, 0.01, 0.933901543726431]
+Best Error: 0.6953643706453055
+
+Iteration: 16, Particle: 23
+Position: [0.0009539720542148052, 0.01, 0.9178427851702096]
+Velocity: [0.00030156372853287403, -0.0017452793927928531, -0.020748719977743756]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 16, Particle: 24
+Position: [0.000995826108169826, 0.01, 0.929762316230692]
+Velocity: [0.0009186227977706626, -0.0002723853927568312, -0.008208810903923527]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 17, Particle: 0
+Position: [0.0005389442503326787, 0.01, 0.9268926913646616]
+Velocity: [0.0005289442503326787, -0.0018463137884898034, 0.0014159691366847711]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 17, Particle: 1
+Position: [0.0009114319120671109, 0.01, 0.9129721965492469]
+Velocity: [-0.00012107164195457955, -0.002016836321955043, -0.002094525586355115]
+Best Position: [0.0010325035540216904, 0.01, 0.915066722135602]
+Best Error: 0.7013310835753969
+
+Iteration: 17, Particle: 2
+Position: [1e-05, 0.01, 0.9292314915186624]
+Velocity: [-0.0005212216210594971, -0.002478633238707895, -0.003959561806862112]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 17, Particle: 3
+Position: [0.001353021441192411, 0.01, 0.9330093940336898]
+Velocity: [-2.1561618746532057e-05, -0.0002771839489687435, 0.015566714100254479]
+Best Position: [0.0015947768338642138, 0.01, 0.9362686922639074]
+Best Error: 0.6927626363081881
+
+Iteration: 17, Particle: 4
+Position: [0.0004601489981172994, 0.01, 0.9256532970249451]
+Velocity: [-0.0003679882230722592, -0.0018322756619680528, -0.008114341450811568]
+Best Position: [0.0008281372211895586, 0.01, 0.9337676384757567]
+Best Error: 0.7091542891150695
+
+Iteration: 17, Particle: 5
+Position: [0.0007327764050787243, 0.01, 0.9221766767486174]
+Velocity: [-1.670389699304975e-05, -0.005159690787233973, -0.0002652725506816281]
+Best Position: [0.0004213373983583937, 0.01, 0.9242474970558008]
+Best Error: 0.7024512737424933
+
+Iteration: 17, Particle: 6
+Position: [0.0010192339694602597, 0.01, 0.9171775316059347]
+Velocity: [0.00015266960841927066, -0.0014263245950070916, -0.003927612818512373]
+Best Position: [0.000866564361040989, 0.01, 0.9211051444244471]
+Best Error: 0.712940210857061
+
+Iteration: 17, Particle: 7
+Position: [0.000832759967967008, 0.01, 0.927757727862943]
+Velocity: [-6.642357964308892e-05, -0.0020331271075737776, -0.0020633369942127597]
+Best Position: [0.0007655328939005464, 0.01, 0.9277332231991362]
+Best Error: 0.7042794576611991
+
+Iteration: 17, Particle: 8
+Position: [0.0012102358851384764, 0.01, 0.9222090395611464]
+Velocity: [0.00011816293892451043, -0.0019228389062213816, -0.006970832160142673]
+Best Position: [0.001092072946213966, 0.01, 0.9291798717212891]
+Best Error: 0.7013995847398621
+
+Iteration: 17, Particle: 9
+Position: [0.001016797604866153, 0.01, 0.9246679390979768]
+Velocity: [-0.00031014838862734797, -5.236959362790069e-05, 0.0027629208091019914]
+Best Position: [0.0013269459934935012, 0.01, 0.9219050182888748]
+Best Error: 0.7026908420684838
+
+Iteration: 17, Particle: 10
+Position: [0.0008381813098761938, 0.01, 0.921582832422301]
+Velocity: [-1.5850766127361342e-05, -0.0019106120574929621, -0.010394652596796058]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 17, Particle: 11
+Position: [1e-05, 0.01, 0.931286672068671]
+Velocity: [-0.0003104236019569036, -0.0005215025168080378, -0.0023958026065913855]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 17, Particle: 12
+Position: [0.001344753797601627, 0.01, 0.9139113417898543]
+Velocity: [0.00023078882759975, -0.000650449602125813, -0.02237925173048082]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 17, Particle: 13
+Position: [0.0010216027387784142, 0.01, 0.925799983910331]
+Velocity: [-0.00012721356879046985, -7.975552392562023e-05, -0.02744831780905089]
+Best Position: [0.0009321739265101879, 0.01, 0.9472883279878411]
+Best Error: 0.7008246837019984
+
+Iteration: 17, Particle: 14
+Position: [0.0009978672965687716, 0.01, 0.9238428044211752]
+Velocity: [9.597679560965832e-05, -0.000320829966601298, 0.005857327269132531]
+Best Position: [0.0005445352227629325, 0.01, 0.9290787453996611]
+Best Error: 0.7025913892481868
+
+Iteration: 17, Particle: 15
+Position: [0.0009253092372214293, 0.01, 0.9642094997884934]
+Velocity: [-3.3880978013451516e-05, -0.003290745433164437, 0.00029772320849161477]
+Best Position: [0.0007339619611879932, 0.01, 0.9567357824887863]
+Best Error: 0.7034311883002898
+
+Iteration: 17, Particle: 16
+Position: [1e-05, 0.01, 0.9259326322826783]
+Velocity: [-0.0011417455646504536, -0.0010489106644083156, -0.0012818911028222306]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 17, Particle: 17
+Position: [0.0009767535026708142, 0.01, 0.9271250811764075]
+Velocity: [8.822010858006152e-05, -0.00013380867098593957, 0.00396774469155167]
+Best Position: [0.0008242584873271567, 0.01, 0.9024900779752286]
+Best Error: 0.7057648222438218
+
+Iteration: 17, Particle: 18
+Position: [0.0014464199451384933, 0.01, 0.9179727551775236]
+Velocity: [-0.0005372513317048924, -0.0014163778896914027, -0.009290981554661855]
+Best Position: [0.0014220461192736111, 0.01, 0.9230920826649818]
+Best Error: 0.6933808879301268
+
+Iteration: 17, Particle: 19
+Position: [0.0014284435118987237, 0.01, 0.9198018384729365]
+Velocity: [0.000609006985411838, -0.0011562575538733438, -0.013370671987078675]
+Best Position: [0.0008194365264868855, 0.01, 0.9331725104600151]
+Best Error: 0.7062020965741072
+
+Iteration: 17, Particle: 20
+Position: [0.0008459747385768154, 0.01, 0.9186535177369091]
+Velocity: [-0.00020112420384288296, -0.002199319572245904, -0.002464834748993904]
+Best Position: [0.001307111513132968, 0.01, 0.9299317366976521]
+Best Error: 0.6945000918696249
+
+Iteration: 17, Particle: 21
+Position: [0.0011107013836372825, 0.01, 0.9075272822250902]
+Velocity: [0.00012266635459250305, -0.0032240900268189227, -0.002483848711971314]
+Best Position: [0.001284201399902991, 0.01, 0.9122162902234495]
+Best Error: 0.6996009872223246
+
+Iteration: 17, Particle: 22
+Position: [0.0010837404599055938, 0.01, 0.9101770017460581]
+Velocity: [-6.670338246033775e-05, -0.0012614648294979043, -0.008261173484057034]
+Best Position: [0.0011504438423659315, 0.01, 0.9184381752301152]
+Best Error: 0.7027215431802227
+
+Iteration: 17, Particle: 23
+Position: [0.0006540155450863456, 0.01, 0.9132899768183657]
+Velocity: [-0.0002999565091284596, -0.001221695574954997, -0.0045528083518439205]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 17, Particle: 24
+Position: [0.0016219531434909422, 0.01, 0.9214796918555473]
+Velocity: [0.0006261270353211162, -0.00019066977492978186, -0.008282624375144704]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 18, Particle: 0
+Position: [0.0011516772396621957, 0.01, 0.9250755747418723]
+Velocity: [0.000612732989329517, -0.0012924196519428623, -0.0018171166227892981]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 18, Particle: 1
+Position: [0.0007656273902668855, 0.01, 0.9153314460178376]
+Velocity: [-0.00014580452180022543, -0.0014117854253685301, 0.002359249468590701]
+Best Position: [0.0009114319120671109, 0.01, 0.9129721965492469]
+Best Error: 0.7043858127750304
+
+Iteration: 18, Particle: 2
+Position: [9.035906890485945e-05, 0.01, 0.9262631685624123]
+Velocity: [8.035906890485945e-05, -0.0017350432670955264, -0.0029683229562500017]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 18, Particle: 3
+Position: [0.0015069328825580916, 0.01, 0.9306656706749507]
+Velocity: [0.00015391144136568056, -0.00019402876427812045, -0.002343723358739159]
+Best Position: [0.0015947768338642138, 0.01, 0.9362686922639074]
+Best Error: 0.6927626363081881
+
+Iteration: 18, Particle: 4
+Position: [0.0008130135439167433, 0.01, 0.9255779282562903]
+Velocity: [0.0003528645457994439, -0.001282592963377637, -7.536876865486602e-05]
+Best Position: [0.0008281372211895586, 0.01, 0.9337676384757567]
+Best Error: 0.7091542891150695
+
+Iteration: 18, Particle: 5
+Position: [0.0004906651759194138, 0.01, 0.9233719617140345]
+Velocity: [-0.0002421112291593105, -0.003611783551063781, 0.001195284965417128]
+Best Position: [0.0004213373983583937, 0.01, 0.9242474970558008]
+Best Error: 0.7024512737424933
+
+Iteration: 18, Particle: 6
+Position: [0.000741664888007227, 0.01, 0.9205864690262651]
+Velocity: [-0.00027756908145303277, -0.000998427216504964, 0.0034089374203303516]
+Best Position: [0.000866564361040989, 0.01, 0.9211051444244471]
+Best Error: 0.712940210857061
+
+Iteration: 18, Particle: 7
+Position: [0.0007425870868007731, 0.01, 0.9257905402647727]
+Velocity: [-9.017288116623483e-05, -0.0014231889753016443, -0.001967187598170231]
+Best Position: [0.0007655328939005464, 0.01, 0.9277332231991362]
+Best Error: 0.7042794576611991
+
+Iteration: 18, Particle: 8
+Position: [0.0009270097863088303, 0.01, 0.9166860699263522]
+Velocity: [-0.0002832260988296461, -0.0013459872343549672, -0.005522969634794225]
+Best Position: [0.0012102358851384764, 0.01, 0.9222090395611464]
+Best Error: 0.7080650420913257
+
+Iteration: 18, Particle: 9
+Position: [0.001275562484967332, 0.01, 0.921956868580351]
+Velocity: [0.00025876488010117876, -3.665871553953048e-05, -0.002711070517625813]
+Best Position: [0.0013269459934935012, 0.01, 0.9219050182888748]
+Best Error: 0.7026908420684838
+
+Iteration: 18, Particle: 10
+Position: [0.0008171208301472798, 0.01, 0.9148871426372542]
+Velocity: [-2.1060479728914083e-05, -0.0013374284402450734, -0.006695689785046728]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 18, Particle: 11
+Position: [0.00022966390591165826, 0.01, 0.9261852566939206]
+Velocity: [0.00021966390591165826, -0.00036505176176562646, -0.005101415374750416]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 18, Particle: 12
+Position: [0.0010291067934721683, 0.01, 0.945087604587937]
+Velocity: [-0.0003156470041294588, -0.00045531472148806906, 0.03117626279808262]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 18, Particle: 13
+Position: [0.0005678427596299434, 0.01, 0.9356872049118117]
+Velocity: [-0.00045375997914847083, -5.5828866747934155e-05, 0.00988722100148067]
+Best Position: [0.0009321739265101879, 0.01, 0.9472883279878411]
+Best Error: 0.7008246837019984
+
+Iteration: 18, Particle: 14
+Position: [0.0005381884312645423, 0.01, 0.9296637568463892]
+Velocity: [-0.0004596788653042294, -0.00022458097662090857, 0.005820952425214076]
+Best Position: [0.0005445352227629325, 0.01, 0.9290787453996611]
+Best Error: 0.7025913892481868
+
+Iteration: 18, Particle: 15
+Position: [0.0007434918400153745, 0.01, 0.959519993203531]
+Velocity: [-0.0001818173972060548, -0.0023035218032151058, -0.004689506584962317]
+Best Position: [0.0007339619611879932, 0.01, 0.9567357824887863]
+Best Error: 0.7034311883002898
+
+Iteration: 18, Particle: 16
+Position: [1e-05, 0.01, 0.9297009177107762]
+Velocity: [-0.00047691157244385697, -0.0007342374650858209, 0.00376828542809798]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 18, Particle: 17
+Position: [0.0007045821214174895, 0.01, 0.9258616425915704]
+Velocity: [-0.0002721713812533247, -9.366606969015769e-05, -0.0012634385848370546]
+Best Position: [0.0008242584873271567, 0.01, 0.9024900779752286]
+Best Error: 0.7057648222438218
+
+Iteration: 18, Particle: 18
+Position: [0.0009228351833703891, 0.01, 0.9167815441699013]
+Velocity: [-0.0005235847617681042, -0.0009914645227839817, -0.0011912110076222797]
+Best Position: [0.0014464199451384933, 0.01, 0.9179727551775236]
+Best Error: 0.6935482899995105
+
+Iteration: 18, Particle: 19
+Position: [0.0012226287636354785, 0.01, 0.9339505000708012]
+Velocity: [-0.000205814748263245, -0.0008093802877113406, 0.014148661597864648]
+Best Position: [0.0008194365264868855, 0.01, 0.9331725104600151]
+Best Error: 0.7062020965741072
+
+Iteration: 18, Particle: 20
+Position: [0.0009091641679829861, 0.01, 0.9254006608691856]
+Velocity: [6.318942940617076e-05, -0.0015395237005721325, 0.006747143132276493]
+Best Position: [0.001307111513132968, 0.01, 0.9299317366976521]
+Best Error: 0.6945000918696249
+
+Iteration: 18, Particle: 21
+Position: [0.0009896408258049632, 0.01, 0.9105912319383663]
+Velocity: [-0.00012106055783231925, -0.0022568630187732456, 0.0030639497132762096]
+Best Position: [0.0011107013836372825, 0.01, 0.9075272822250902]
+Best Error: 0.7024825613885345
+
+Iteration: 18, Particle: 22
+Position: [0.0007421992233409226, 0.01, 0.9279303490547988]
+Velocity: [-0.00034154123656467123, -0.0008830253806485329, 0.017753347308740723]
+Best Position: [0.0011504438423659315, 0.01, 0.9184381752301152]
+Best Error: 0.7027215431802227
+
+Iteration: 18, Particle: 23
+Position: [0.0006435935569192077, 0.01, 0.9319593800917769]
+Velocity: [-1.0421988167137893e-05, -0.0008551869024684979, 0.0186694032734113]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 18, Particle: 24
+Position: [0.0019409324527173291, 0.01, 0.9150931480580413]
+Velocity: [0.00031897930922638706, -0.00013346884245084729, -0.00638654379750603]
+Best Position: [0.0016219531434909422, 0.01, 0.9214796918555473]
+Best Error: 0.6977906264078265
+
+Iteration: 19, Particle: 0
+Position: [0.001530586591700587, 0.01, 0.9210929615694208]
+Velocity: [0.00037890935203839125, -0.0009046937563600035, -0.003982613172451528]
+Best Position: [0.0011516772396621957, 0.01, 0.9250755747418723]
+Best Error: 0.6954838581983329
+
+Iteration: 19, Particle: 1
+Position: [0.0010284475188975864, 0.01, 0.9175461648387752]
+Velocity: [0.0002628201286307008, -0.000988249797757971, 0.0022147188209375797]
+Best Position: [0.0009114319120671109, 0.01, 0.9129721965492469]
+Best Error: 0.7043858127750304
+
+Iteration: 19, Particle: 2
+Position: [0.0005537311035419274, 0.01, 0.9322420548513852]
+Velocity: [0.000463372034637068, -0.0012145302869668684, 0.005978886288972904]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 19, Particle: 3
+Position: [0.0015236264059090314, 0.01, 0.9221059517722132]
+Velocity: [1.669352335093965e-05, -0.0001358201349946843, -0.008559718902737469]
+Best Position: [0.0015947768338642138, 0.01, 0.9362686922639074]
+Best Error: 0.6927626363081881
+
+Iteration: 19, Particle: 4
+Position: [0.001090539568596657, 0.01, 0.9312174463624363]
+Velocity: [0.0002775260246799136, -0.0008978150743643458, 0.005639518106146005]
+Best Position: [0.0008281372211895586, 0.01, 0.9337676384757567]
+Best Error: 0.7091542891150695
+
+Iteration: 19, Particle: 5
+Position: [0.00037828209856599463, 0.01, 0.9230516373927239]
+Velocity: [-0.00011238307735341924, -0.0025282484857446466, -0.0003203243213105809]
+Best Position: [0.0004906651759194138, 0.01, 0.9233719617140345]
+Best Error: 0.7057396711577576
+
+Iteration: 19, Particle: 6
+Position: [0.0008618762755881961, 0.01, 0.9237859778045074]
+Velocity: [0.00012021138758096917, -0.0006988990515534747, 0.00319950877824237]
+Best Position: [0.000866564361040989, 0.01, 0.9211051444244471]
+Best Error: 0.712940210857061
+
+Iteration: 19, Particle: 7
+Position: [0.0007936755862998066, 0.01, 0.926752742753738]
+Velocity: [5.108849949903352e-05, -0.000996232282711151, 0.0009622024889652612]
+Best Position: [0.0007655328939005464, 0.01, 0.9277332231991362]
+Best Error: 0.7042794576611991
+
+Iteration: 19, Particle: 8
+Position: [0.0006866927723355815, 0.01, 0.9198200720315449]
+Velocity: [-0.00024031701397324886, -0.0009421910640484769, 0.0031340021051927567]
+Best Position: [0.0012102358851384764, 0.01, 0.9222090395611464]
+Best Error: 0.7080650420913257
+
+Iteration: 19, Particle: 9
+Position: [0.0014078305429834652, 0.01, 0.9196032822957435]
+Velocity: [0.00013226805801613313, -2.5661100877671336e-05, -0.002353586284607427]
+Best Position: [0.0013269459934935012, 0.01, 0.9219050182888748]
+Best Error: 0.7026908420684838
+
+Iteration: 19, Particle: 10
+Position: [0.0008318959447934664, 0.01, 0.922223665473411]
+Velocity: [1.4775114646186621e-05, -0.0009361999081715513, 0.007336522836156763]
+Best Position: [0.0007621276146391492, 0.01, 0.9220138179100887]
+Best Error: 0.7066412606506912
+
+Iteration: 19, Particle: 11
+Position: [0.0007119156346157815, 0.01, 0.9241200379445442]
+Velocity: [0.00048225172870412325, -0.0002555362332359385, -0.0020652187493764088]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 19, Particle: 12
+Position: [0.0006725319098898788, 0.01, 0.9156681162860134]
+Velocity: [-0.0003565748835822895, -0.00031872030504164834, -0.02941948830192357]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 19, Particle: 13
+Position: [0.0011928133909860424, 0.01, 0.9424419570163218]
+Velocity: [0.000624970631356099, -3.908020672355391e-05, 0.006754752104510164]
+Best Position: [0.0009321739265101879, 0.01, 0.9472883279878411]
+Best Error: 0.7008246837019984
+
+Iteration: 19, Particle: 14
+Position: [0.000743004821283825, 0.01, 0.9309534010096772]
+Velocity: [0.00020481639001928268, -0.000157206683634636, 0.0012896441632879144]
+Best Position: [0.0005381884312645423, 0.01, 0.9296637568463892]
+Best Error: 0.7075074235222804
+
+Iteration: 19, Particle: 15
+Position: [0.0006375701335667738, 0.01, 0.9540555705435259]
+Velocity: [-0.00010592170644860069, -0.001612465262250574, -0.005464422660005093]
+Best Position: [0.0007339619611879932, 0.01, 0.9567357824887863]
+Best Error: 0.7034311883002898
+
+Iteration: 19, Particle: 16
+Position: [1e-05, 0.01, 0.9345223757939858]
+Velocity: [-1.1527777899239327e-05, -0.0005139662255600746, 0.004821458083209537]
+Best Position: [0.001, 0.01, 0.937]
+Best Error: 0.6921046427060112
+
+Iteration: 19, Particle: 17
+Position: [0.0006308058781017877, 0.01, 0.9236133598604668]
+Velocity: [-7.377624331570178e-05, -6.556624878311038e-05, -0.002248282731103667]
+Best Position: [0.0007045821214174895, 0.01, 0.9258616425915704]
+Best Error: 0.7117974921110918
+
+Iteration: 19, Particle: 18
+Position: [0.0005420111770164204, 0.01, 0.9232804450867516]
+Velocity: [-0.0003808240063539687, -0.0006940251659487872, 0.006498900916850258]
+Best Position: [0.0009228351833703891, 0.01, 0.9167815441699013]
+Best Error: 0.7063138667980735
+
+Iteration: 19, Particle: 19
+Position: [0.0006743941199529844, 0.01, 0.9321153670162753]
+Velocity: [-0.0005482346436824941, -0.0005665662013979384, -0.001835133054525857]
+Best Position: [0.0008194365264868855, 0.01, 0.9331725104600151]
+Best Error: 0.7062020965741072
+
+Iteration: 19, Particle: 20
+Position: [0.0009236596227052003, 0.01, 0.9236296533031616]
+Velocity: [1.449545472221417e-05, -0.0010776665904004927, -0.0017710075660240208]
+Best Position: [0.0009091641679829861, 0.01, 0.9254006608691856]
+Best Error: 0.6955157260418676
+
+Iteration: 19, Particle: 21
+Position: [0.000800580605533038, 0.01, 0.9164548867953273]
+Velocity: [-0.00018906022027192522, -0.0015798041131412717, 0.005863654856960998]
+Best Position: [0.0009896408258049632, 0.01, 0.9105912319383663]
+Best Error: 0.71148477435973
+
+Iteration: 19, Particle: 22
+Position: [0.0008476365092838904, 0.01, 0.918822700650889]
+Velocity: [0.00010543728594296774, -0.000618117766453973, -0.009107648403909785]
+Best Position: [0.0011504438423659315, 0.01, 0.9184381752301152]
+Best Error: 0.7027215431802227
+
+Iteration: 19, Particle: 23
+Position: [0.0008605354830570174, 0.01, 0.9181479884113757]
+Velocity: [0.00021694192613780968, -0.0005986308317279485, -0.013811391680401248]
+Best Position: [0.0006860494141102307, 0.01, 0.9221873129285384]
+Best Error: 0.7068497398156767
+
+Iteration: 19, Particle: 24
+Position: [0.0017264922704186016, 0.01, 0.9298409386987417]
+Velocity: [-0.00021444018229872742, -9.342818971559309e-05, 0.01474779064070041]
+Best Position: [0.0016219531434909422, 0.01, 0.9214796918555473]
+Best Error: 0.6977906264078265
+

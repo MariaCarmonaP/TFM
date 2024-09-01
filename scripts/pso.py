@@ -41,13 +41,13 @@ def get_map(x, n_iter: int) -> float:
     # Use the model
     model.train(
         data=r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/cfg.yaml",
-        project=r"/home/maria/TFM/data/results/filtered_DATASET_v2/PSO",
-        name=str(n_iter),
+        project=r"/home/maria/TFM/data/results/filtered_DATASET_v2/PSO_batch",
+        name=f"{n_iter}_{x[0]}_{x[1]}_{x[2]}",
         epochs=40,
         patience=5,
         imgsz=608,
         device="cuda:0" if cuda.is_available() else "cpu",
-        exists_ok=True,
+        exist_ok=True,
         seed=4,
         optimizer="Adam",
         close_mosaic=0,
@@ -60,12 +60,13 @@ def get_map(x, n_iter: int) -> float:
         mosaic=0,
         verbose=False,
         cos_lr=True,
-        batch=16,
-        lr0=x[0],
-        lrf=x[1],
-        momentum=x[2],
-        weight_decay=0.0005,
-        cls=0.6,
+        batch=x[0],
+        lr0=0.0010192339694602597,
+        lrf=0.01,
+        momentum=0.9171775316059347,
+        weight_decay=x[1],
+        cls=x[2],
+        plots=False,
     )
 
     return model.val().box.map
@@ -86,8 +87,8 @@ class Particle:
             self.position_i.append(x0[i])
 
     # evaluate current fitness
-    def evaluate(self, cost_func):
-        self.map_i = cost_func(self.position_i)
+    def evaluate(self, cost_func, n_iter: int):
+        self.map_i = cost_func(self.position_i, n_iter)
 
         # check to see if the current position is an individual best
         if self.map_i > self.map_best_i or self.map_best_i == -1:
@@ -138,7 +139,7 @@ def minimize(cost_func, x0, bounds, num_particles, maxiter, verbose=False):
     i = 0
     while i < maxiter:
         # write particle information to file
-        with open("/home/maria/TFM/data/results/filtered_DATASET_v2/PSO/particle_info.txt", "a", encoding="utf-8") as file:
+        with open("/home/maria/TFM/data/results/filtered_DATASET_v2/PSO_batch/particle_info.txt", "a", encoding="utf-8") as file:
             for j in range(0, num_particles):
                 file.write(f"Iteration: {i}, Particle: {j}\n")
                 file.write(f"Position: {swarm[j].position_i}\n")
@@ -151,7 +152,7 @@ def minimize(cost_func, x0, bounds, num_particles, maxiter, verbose=False):
 
         # cycle through particles in swarm and evaluate fitness
         for j in range(0, num_particles):
-            swarm[j].evaluate(cost_func)
+            swarm[j].evaluate(cost_func, i)
 
             # determine if current particle is the best (globally)
             if swarm[j].map_i > map_best_g or map_best_g == -1:
@@ -179,6 +180,6 @@ if __name__ == "__main__":
     # --- RUN ----------------------------------------------------------------------+
     seed = 4
     random.seed(seed)
-    x0 = [0.001, 0.01, 0.937]
+    x0 = [16, 0.0005, 0.6]
     bounds = [(0.00001, 0.01), (0.01, 0.5), (0.7, 0.99)]
     opt = minimize(get_map, x0, bounds, num_particles=25, maxiter=20, verbose=False)
