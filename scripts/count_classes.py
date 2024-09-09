@@ -26,8 +26,14 @@ def count_classes(label_folder):
         
 
 if __name__ == "__main__":
-    label_folder = r"C:\Users\sierr\Documents\Uni\TFM\new_labels"
+    label_folder = r"C:\Users\sierr\Documents\Uni\TFM\archive\for_relabelling\new_labels"
     
     n_clases = count_classes(label_folder)
-    print('Furgonetas ligeras: ', n_clases[2])
-    print('Furgonetas pesadas: ', n_clases[3])
+    print('M: ', n_clases[0])
+    print('C: ', n_clases[1])
+    print('FL: ', n_clases[2])
+    print('FP: ', n_clases[3])
+    print('A: ', n_clases[4])
+    print('CL: ', n_clases[5])
+    print('CP: ', n_clases[6])
+    print('CPA: ', n_clases[7])

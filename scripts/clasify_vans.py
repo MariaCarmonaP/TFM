@@ -9,12 +9,12 @@ from networkx import center
 NEW_IMG_H = 550
 
 class Display(tk.Tk):
-    def __init__(self, image_folder, label_folder, new_label_folder, unlabeled_images_folder, dataset_info_folder):
+    def __init__(self, image_folder, label_folder, new_label_folder, bb_image_folder, dataset_info_folder):
         super().__init__()
         self.image_folder = image_folder
         self.label_folder = label_folder
         self.new_label_folder = new_label_folder
-        self.unlabeled_images_folder = unlabeled_images_folder
+        self.bb_image_folder = bb_image_folder
         self.dataset_info_folder = dataset_info_folder
 
         self.geometry("1200x800")
@@ -309,7 +309,7 @@ class Display(tk.Tk):
         label.image = self.info['img'] if self.info else ""  # type: ignore
         label.grid(sticky='n', column=0, row=2)
 
-        unlabelled_img = ImageTk.PhotoImage(Image.open(os.path.join(self.unlabeled_images_folder, image_file)).resize((new_img_w, NEW_IMG_H)))
+        unlabelled_img = ImageTk.PhotoImage(Image.open(os.path.join(self.bb_image_folder, image_file)).resize((new_img_w, NEW_IMG_H)))
         label = ttk.Label(self.frame, image=unlabelled_img)  # type: ignore
         label.image = unlabelled_img   # type: ignore
         label.grid(sticky='n', column=1, row=2)
@@ -359,11 +359,11 @@ class Display(tk.Tk):
 
 if __name__ == "__main__":
     general_dir = r'C:\Users\sierr\Documents\Uni\TFM\archive\for_relabelling'
-    unlabeled_images_folder = general_dir + r'\unlabeled_images'
+    bb_image_folder = general_dir + r'\unlabeled_images'
     image_folder = general_dir + r'\images'
     label_folder = general_dir + r'\labels'
     new_label_folder = general_dir + r'\new_labels'
     dataset_info_folder = general_dir + r'\dataset_info'
-    root = Display(image_folder, label_folder, new_label_folder, unlabeled_images_folder, dataset_info_folder)
+    root = Display(image_folder, label_folder, new_label_folder, bb_image_folder, dataset_info_folder)
 
     root.mainloop()
