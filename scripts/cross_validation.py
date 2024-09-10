@@ -1,5 +1,6 @@
 import os
 import yaml
+import json
 import pandas as pd
 import datetime
 import shutil
@@ -7,14 +8,15 @@ from pathlib import Path
 from collections import Counter
 from sklearn.model_selection import KFold
 from ultralytics import YOLO
+from torch import cuda
 
 dataset_path = Path(
-    os.environ["ROOT_DIR"], r"data\datasets\filtered_DATASET_v2\raw_dataset"
+    os.environ["ROOT_DIR"], r"data/datasets/filtered_DATASET_v2"
 )
-labels = sorted(dataset_path.rglob("*.txt"))
+labels = sorted((dataset_path / "labels").rglob("*/*.txt"))
 
 yaml_file = Path(
-    os.environ["ROOT_DIR"], r"data\datasets\filtered_DATASET_v2\cfg.yaml"
+    os.environ["ROOT_DIR"], r"data/datasets/filtered_DATASET_v2/cfg.yaml"
 )  # your data YAML with data directories and names dictionary
 with open(yaml_file, "r", encoding="utf8") as y:
     classes = yaml.safe_load(y)["names"]
@@ -65,7 +67,7 @@ images = []
 
 # Loop through supported extensions and gather image files
 for ext in supported_extensions:
-    images.extend(sorted((dataset_path).rglob(f"*{ext}")))
+    images.extend(sorted((dataset_path / "images").rglob(f"*/*{ext}")))
 
 # Create the necessary directories and dataset YAML files (unchanged)
 save_path = Path(dataset_path / f"{datetime.date.today().isoformat()}_{ksplit}-Fold_Cross-val")
@@ -112,18 +114,55 @@ folds_df.to_csv(save_path / "kfold_datasplit.csv")
 fold_lbl_distrb.to_csv(save_path / "kfold_label_distribution.csv")
 
 
-weights_path = "path/to/weights.pt"
-model = YOLO(weights_path, task="detect")
+weights_path = os.environ["ROOT_DIR"] + os.sep + "data/results/filtered_DATASET_v2/PSO_batch/14_23_16_1e-06_0.4973647142714877/weights/best.pt"
+
+model = YOLO("yolov8n.pt", task="detect")
 
 
 results = {}
 
 # Define your additional arguments here
 batch = 16
-project = "kfold_demo"
-epochs = 100
+epochs = 40
+weight_decay = 1e-06
+cls= 0.4973647142714877
 
 for k in range(ksplit):
     dataset_yaml = ds_yamls[k]
-    model.train(data=dataset_yaml, epochs=epochs, batch=batch, project=project)  # include any train arguments
-    results[k] = model.metrics  # save output metrics for further analysis
+    model.train(
+        data=dataset_yaml,
+        project=r"/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_3",
+        name=f"{k}_fold",
+        epochs=40,
+        #patience=5,
+        imgsz=608,
+        device="cuda:0" if cuda.is_available() else "cpu",
+        exist_ok=True,
+        seed=4,
+        optimizer="Adam",
+        close_mosaic=0,
+        hsv_h=0,
+        hsv_s=0,
+        hsv_v=0,
+        translate=0,
+        scale=0,
+        fliplr=0,
+        mosaic=0,
+        cos_lr=True,
+        batch=batch,
+        lr0=0.0010192339694602597,
+        lrf=0.01,
+        momentum=0.9171775316059347,
+        weight_decay=weight_decay,
+        cls=cls,
+    )
+    results[k] = model.val()  # save output metrics for further analysis
+    try:
+        # Save output metrics to a file
+        with open("/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_3/output_metrics.json", "w") as f:
+            json.dump(results[k].results_dict, f)
+            
+        with open("/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_3/output_metrics.txt", "w") as f:
+            f.write(results[k].results_dict)
+    except Exception:
+        pass
