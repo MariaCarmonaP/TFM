@@ -78,7 +78,6 @@ transform_color = A.Compose(
             hue_shift_limit=30, sat_shift_limit=30, val_shift_limit=30, p=0.8
         ),
         A.RandomRain(rain_type="drizzle", p=0.3),
-        A.RandomSunFlare(p=0.1),
         A.RandomShadow(shadow_roi=(0.5, 0.5, 1.0, 1.0), p=0.1),
         A.CoarseDropout(max_holes=4, max_height=32, max_width=32, p=0.1),
     ], bbox_params=A.BboxParams(format='yolo', label_fields=['category_ids', "dataset_info"])
@@ -104,7 +103,7 @@ transform_weather = A.Compose(
         A.RandomBrightnessContrast(p=0.3),
         A.HueSaturationValue(hue_shift_limit=10, sat_shift_limit=30, p=0.3),
         A.RandomFog(fog_coef_lower=0.1, fog_coef_upper=0.3, alpha_coef=0.1, p=0.2),
-        A.RandomSunFlare(p=0.3),
+        A.RandomSunFlare(p=0.2),
         A.RandomShadow(
             shadow_roi=(0.5, 0.5, 1.0, 1.0),
             num_shadows_lower=1,
@@ -144,6 +143,14 @@ AUG_IMAGES_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/aug_images"
 AUG_LABELS_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/aug_labels"
 AUG_INFO_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/aug_dataset_info"
 SCRIPTS_DIR = r"/home/maria/TFM/scripts"
+FILTERED_IMAGES_DIR = r"C:\Users\sierr\Documents\Uni\TFM\data\datasets\filtered_DATASET_v2\raw_dataset"
+FILTERED_LABELS_DIR = r"C:\Users\sierr\Documents\Uni\TFM\data\datasets\filtered_DATASET_v2\raw_dataset"
+FILTERED_INFO_DIR = r"C:\Users\sierr\Documents\Uni\TFM\data\datasets\filtered_DATASET_v2\dataset_info"
+
+AUG_IMAGES_DIR = r"C:\Users\sierr\Documents\Uni\TFM\data\datasets\filtered_DATASET_v2\aug_images"
+AUG_LABELS_DIR = r"C:\Users\sierr\Documents\Uni\TFM\data\datasets\filtered_DATASET_v2\aug_labels"
+AUG_INFO_DIR = r"C:\Users\sierr\Documents\Uni\TFM\data\datasets\filtered_DATASET_v2\aug_dataset_info"
+SCRIPTS_DIR = r"C:\Users\sierr\Documents\Uni\TFM\scripts"
 # set seed for random generated numbers
 random.seed(64330)
 
