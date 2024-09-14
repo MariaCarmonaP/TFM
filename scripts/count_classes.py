@@ -1,7 +1,7 @@
 # pylint: disable=missing-function-docstring, missing-module-docstring, missing-class-docstring
 import os
 
-LABEL_FOLDER = r"C:\Users\sierr\Documents\Uni\TFM\data\datasets\reordered_DATASET\labels"
+LABEL_FOLDER = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/labels"
 
 
 def read_yolo_labels(label_path):

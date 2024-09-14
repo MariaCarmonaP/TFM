@@ -1,0 +1,12 @@
+names:
+  0: 0
+  1: 1
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+  7: 7
+path: /home/maria/TFM/data/datasets/filtered_DATASET_v2/2024-09-12_4-Fold_Cross-val/split_3
+train: train
+val: val

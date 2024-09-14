@@ -46,11 +46,13 @@ def write_dataset_info(info_path, info):
         file.write(dists + "\n")
 
 transform_scale_rot = A.Compose(
+
     [
+        A.HorizontalFlip(),
         A.ShiftScaleRotate(scale_limit=0, rotate_limit=10, shift_limit_y=0.005, shift_limit_x=0.3, p=1),
         A.RandomResizedCrop(height=608, width=608, scale=(0.6, 0.9), ratio=(0.99, 1.01), p=1.0),
         A.RandomBrightnessContrast(p=0.2),
-        A.HueSaturationValue(hue_shift_limit=10, sat_shift_limit=20, p=0.2),
+        A.HueSaturationValue(hue_shift_limit=10, sat_shift_limit=20, p=0.1),
         A.RandomRain(
             slant_lower=-5,
             slant_upper=5,
@@ -70,7 +72,7 @@ transform_scale_rot = A.Compose(
 
 transform_color = A.Compose(
     [
-        A.ShiftScaleRotate(shift_limit=0.1, scale_limit=0, rotate_limit=5, p=0.3),
+        A.HorizontalFlip(),
         A.RandomBrightnessContrast(brightness_limit=0.4, p=0.8),
         A.HueSaturationValue(
             hue_shift_limit=30, sat_shift_limit=30, val_shift_limit=30, p=0.8
@@ -83,6 +85,7 @@ transform_color = A.Compose(
 )
 transform_rain = A.Compose(
     [
+        A.HorizontalFlip(),
         A.RandomBrightnessContrast(p=0.3),
         A.RandomRain(
             slant_lower=-10,
@@ -97,7 +100,7 @@ transform_rain = A.Compose(
 
 transform_weather = A.Compose(
     [
-        A.ShiftScaleRotate(shift_limit=0.15, scale_limit=0, rotate_limit=10, p=0.3),
+        A.HorizontalFlip(),
         A.RandomBrightnessContrast(p=0.3),
         A.HueSaturationValue(hue_shift_limit=10, sat_shift_limit=30, p=0.3),
         A.RandomFog(fog_coef_lower=0.1, fog_coef_upper=0.3, alpha_coef=0.1, p=0.2),
@@ -128,16 +131,19 @@ transform_dropout = A.Compose(
             brightness_coefficient=0.7,
             p=0.2,
         ),
-        A.RandomSunFlare(p=0.1),
         A.RandomShadow(shadow_roi=(0.5, 0.5, 1.0, 1.0), p=0.2),
         A.CoarseDropout(max_holes=8, max_height=42, max_width=32, p=1),
     ], bbox_params=A.BboxParams(format='yolo', label_fields=['category_ids', "dataset_info"])
 )
 
-FILTERED_IMAGES_DIR = r"C:\Users\sierr\Documents\Uni\TFM\pruebas\pruebas_augment\images"
-FILTERED_LABELS_DIR = r"C:\Users\sierr\Documents\Uni\TFM\pruebas\pruebas_augment\labels"
-FILTERED_INFO_DIR = r"C:\Users\sierr\Documents\Uni\TFM\pruebas\pruebas_augment\dataset_info"
-SCRIPTS_DIR = r"C:\Users\sierr\Documents\Uni\TFM\scripts"
+FILTERED_IMAGES_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/images"
+FILTERED_LABELS_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/labels"
+FILTERED_INFO_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/dataset_info"
+
+AUG_IMAGES_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/aug_images"
+AUG_LABELS_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/aug_labels"
+AUG_INFO_DIR = r"/home/maria/TFM/data/datasets/filtered_DATASET_v2/aug_dataset_info"
+SCRIPTS_DIR = r"/home/maria/TFM/scripts"
 # set seed for random generated numbers
 random.seed(64330)
 
@@ -157,95 +163,99 @@ with open(
 ) as f:
     similar_images = json.load(f)
 
+errored: list[str] = []
 for file_name in os.listdir(FILTERED_IMAGES_DIR):
     if file_name.split("_")[1] in ["augScaleRot", "augColor", "augWeather", "augDropout", "augRain"]:
         continue
     if file_name.endswith(".jpg"):
-        image = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, file_name))
-        label_path = os.path.join(FILTERED_LABELS_DIR, file_name.replace(".jpg", ".txt"))
-        labels = read_yolo_labels(label_path)
-        info_path = os.path.join(FILTERED_INFO_DIR, file_name.replace(".jpg", ".txt"))
-        info = read_dataset_info(info_path)
-        # Separate bounding boxes and category ids
-        bboxes = [label[:4] for label in labels]
-        category_ids = [label[4] for label in labels]
+        try:
+            image = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, file_name))
+            label_path = os.path.join(FILTERED_LABELS_DIR, file_name.replace(".jpg", ".txt"))
+            labels = read_yolo_labels(label_path)
+            info_path = os.path.join(FILTERED_INFO_DIR, file_name.replace(".jpg", ".txt"))
+            info = read_dataset_info(info_path)
+            # Separate bounding boxes and category ids
+            bboxes = [label[:4] for label in labels]
+            category_ids = [label[4] for label in labels]
 
-        if random.random() <= augment_probs[file_name[:-4]] or True:
-            if file_name in similar_images:
-                to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
-            else:
-                to_augment = file_name
-            image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
+            if random.random() <= augment_probs[file_name[:-4]]:
+                if file_name in similar_images:
+                    to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
+                else:
+                    to_augment = file_name
+                image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
+                print(to_augment)
+                augmented = transform_scale_rot(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
+                new_name = file_name[:5] + "_augScaleRot_" + file_name[5:]
+                cv2.imwrite(os.path.join(AUG_IMAGES_DIR, new_name), augmented["image"])
+                new_label_name = new_name.replace(".jpg", ".txt")
+                new_label_path = os.path.join(AUG_LABELS_DIR, new_label_name)
+                write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
+                info_path = os.path.join(AUG_INFO_DIR, new_label_name)
+                write_dataset_info(info_path, augmented["dataset_info"])
+
+            if random.random() <= augment_probs[file_name[:-4]]:
+                if file_name in similar_images:
+                    to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
+                else:
+                    to_augment = file_name
+                image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
+                augmented = transform_color(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
+                new_name = file_name[:5] + "_augColor_" + file_name[5:]
+                cv2.imwrite(os.path.join(AUG_IMAGES_DIR, new_name), augmented["image"])
+                new_label_name = new_name.replace(".jpg", ".txt")
+                new_label_path = os.path.join(AUG_LABELS_DIR, new_label_name)
+                write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
+                info_path = os.path.join(AUG_INFO_DIR, new_label_name)
+                write_dataset_info(info_path, augmented["dataset_info"])
             
+            if random.random() <= augment_probs[file_name[:-4]]:
+                if file_name in similar_images:
+                    to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
+                else:
+                    to_augment = file_name
+                image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
+                augmented = transform_rain(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
+                new_name = file_name[:5] + "_augRain_" + file_name[5:]
+                cv2.imwrite(os.path.join(AUG_IMAGES_DIR, new_name), augmented["image"])
+                new_label_name = new_name.replace(".jpg", ".txt")
+                new_label_path = os.path.join(AUG_LABELS_DIR, new_label_name)
+                write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
+                info_path = os.path.join(AUG_INFO_DIR, new_label_name)
+                write_dataset_info(info_path, augmented["dataset_info"])
 
-            augmented = transform_scale_rot(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
-            new_name = file_name[:5] + "_augScaleRot_" + file_name[5:]
-            cv2.imwrite(os.path.join(FILTERED_IMAGES_DIR, new_name), augmented["image"])
-            new_label_name = new_name.replace(".jpg", ".txt")
-            new_label_path = os.path.join(FILTERED_LABELS_DIR, new_label_name)
-            write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
-            info_path = os.path.join(FILTERED_INFO_DIR, new_label_name)
-            write_dataset_info(info_path, augmented["dataset_info"])
-
-        if random.random() <= augment_probs[file_name[:-4]] or True:
-            if file_name in similar_images:
-                to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
-            else:
-                to_augment = file_name
-            image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
-            augmented = transform_color(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
-            new_name = file_name[:5] + "_augColor_" + file_name[5:]
-            cv2.imwrite(os.path.join(FILTERED_IMAGES_DIR, new_name), augmented["image"])
-            new_label_name = new_name.replace(".jpg", ".txt")
-            new_label_path = os.path.join(FILTERED_LABELS_DIR, new_label_name)
-            write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
-            info_path = os.path.join(FILTERED_INFO_DIR, new_label_name)
-            write_dataset_info(info_path, augmented["dataset_info"])
-        
-        if random.random() <= augment_probs[file_name[:-4]] or True:
-            if file_name in similar_images:
-                to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
-            else:
-                to_augment = file_name
-            image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
-            augmented = transform_rain(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
-            new_name = file_name[:5] + "_augRain_" + file_name[5:]
-            cv2.imwrite(os.path.join(FILTERED_IMAGES_DIR, new_name), augmented["image"])
-            new_label_name = new_name.replace(".jpg", ".txt")
-            new_label_path = os.path.join(FILTERED_LABELS_DIR, new_label_name)
-            write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
-            info_path = os.path.join(FILTERED_INFO_DIR, new_label_name)
-            write_dataset_info(info_path, augmented["dataset_info"])
-
-        if random.random() <= augment_probs[file_name[:-4]] or True:
-            if file_name in similar_images:
-                to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
-            else:
-                to_augment = file_name
-            image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
-            augmented = transform_weather(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
-            new_name = file_name[:5] + "_augWeather_" + file_name[5:]
-            cv2.imwrite(os.path.join(FILTERED_IMAGES_DIR, new_name), augmented["image"])
-            new_label_name = new_name.replace(".jpg", ".txt")
-            new_label_path = os.path.join(FILTERED_LABELS_DIR, new_label_name)
-            write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
-            info_path = os.path.join(FILTERED_INFO_DIR, new_label_name)
-            write_dataset_info(info_path, augmented["dataset_info"])
-        
-        if random.random() <= augment_probs[file_name[:-4]] or True:
-            if file_name in similar_images:
-                to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
-            else:
-                to_augment = file_name
-            image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
-            augmented = transform_dropout(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
-            new_name = file_name[:5] + "_augDropout_" + file_name[5:]
-            cv2.imwrite(os.path.join(FILTERED_IMAGES_DIR, new_name), augmented["image"])
-            new_label_name = new_name.replace(".jpg", ".txt")
-            new_label_path = os.path.join(FILTERED_LABELS_DIR, new_label_name)
-            write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
-            info_path = os.path.join(FILTERED_INFO_DIR, new_label_name)
-            write_dataset_info(info_path, augmented["dataset_info"])
+            if random.random() <= augment_probs[file_name[:-4]]:
+                if file_name in similar_images:
+                    to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
+                else:
+                    to_augment = file_name
+                image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
+                augmented = transform_weather(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
+                new_name = file_name[:5] + "_augWeather_" + file_name[5:]
+                cv2.imwrite(os.path.join(AUG_IMAGES_DIR, new_name), augmented["image"])
+                new_label_name = new_name.replace(".jpg", ".txt")
+                new_label_path = os.path.join(AUG_LABELS_DIR, new_label_name)
+                write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
+                info_path = os.path.join(AUG_INFO_DIR, new_label_name)
+                write_dataset_info(info_path, augmented["dataset_info"])
+            
+            if random.random() <= augment_probs[file_name[:-4]]:
+                if file_name in similar_images:
+                    to_augment = similar_images[file_name].pop(random.randrange(len(similar_images[file_name])))
+                else:
+                    to_augment = file_name
+                image_to_augment = cv2.imread(os.path.join(FILTERED_IMAGES_DIR, to_augment))
+                augmented = transform_dropout(image=image_to_augment, bboxes=bboxes, category_ids=category_ids, dataset_info=info)
+                new_name = file_name[:5] + "_augDropout_" + file_name[5:]
+                cv2.imwrite(os.path.join(AUG_IMAGES_DIR, new_name), augmented["image"])
+                new_label_name = new_name.replace(".jpg", ".txt")
+                new_label_path = os.path.join(AUG_LABELS_DIR, new_label_name)
+                write_yolo_labels(new_label_path, [list(bbox) + [category_id] for bbox, category_id in zip(augmented['bboxes'], augmented['category_ids'])])
+                info_path = os.path.join(AUG_INFO_DIR, new_label_name)
+                write_dataset_info(info_path, augmented["dataset_info"])
+        except Exception as e:
+            print(e.__class__, ": ", e)
+            errored.append(file_name)
 
     # save the updated similar images json
     with open(
@@ -254,3 +264,10 @@ for file_name in os.listdir(FILTERED_IMAGES_DIR):
         encoding="utf-8",
     ) as f:
         json.dump(similar_images, f, indent=4)
+    with open(
+        os.path.join(SCRIPTS_DIR, "errored.txt"),
+        "w",
+        encoding="utf-8",
+    ) as f:
+        for er in errored:
+            f.write(er+"\n")

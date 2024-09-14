@@ -31,11 +31,11 @@ N_DIM = 3
 # with open("args.yaml", "r", encoding="utf-8") as file:
 #     args = yaml.load(file, Loader=yaml.FullLoader)
 w = 0.7  # constant inertia weight (how much to weigh the previous velocity)
-c1 = 1.7  # cognative constant
-c2 = 1.7  # social constant
+c1 = 2  # cognative constant
+c2 = 2  # social constant
 
 
-def get_map(x, n_iter: int, n_part: int) -> float:
+def get_map(x, n_iter: int, n_part: int, plots: bool = False) -> float:
     model = YOLO("yolov8n.pt")
 
     # Use the model
@@ -48,25 +48,25 @@ def get_map(x, n_iter: int, n_part: int) -> float:
         imgsz=608,
         device="cuda:0" if cuda.is_available() else "cpu",
         exist_ok=True,
-        seed=4,
+        seed=444,
         optimizer="Adam",
-        close_mosaic=0,
-        hsv_h=0,
-        hsv_s=0,
-        hsv_v=0,
-        translate=0,
-        scale=0,
-        fliplr=0,
-        mosaic=0,
+        # close_mosaic=0,
+        # hsv_h=0,
+        # hsv_s=0,
+        # hsv_v=0,
+        # translate=0,
+        # scale=0,
+        # fliplr=0,
+        # mosaic=0,
         verbose=False,
         cos_lr=True,
-        batch=x[0],
-        lr0=0.0010192339694602597,
-        lrf=0.01,
-        momentum=0.9171775316059347,
-        weight_decay=x[1],
-        cls=x[2],
-        plots=False,
+        batch=16,
+        lr0=x[0],
+        lrf=x[1],
+        momentum=x[2],
+        weight_decay=1e-06,
+        cls=0.4973647142714877,
+        plots=plots,
     )
 
     return model.val().box.map
@@ -88,7 +88,7 @@ class Particle:
 
     # evaluate current fitness
     def evaluate(self, cost_func, n_iter: int, n_part: int):
-        self.map_i = cost_func(self.position_i, n_iter, n_part)
+        self.map_i = cost_func(self.position_i, n_iter, n_part, (n_iter % 3) == 0)
 
         # check to see if the current position is an individual best
         if self.map_i > self.map_best_i or self.map_best_i == -1:
@@ -183,8 +183,8 @@ def minimize(cost_func, x0, bounds, num_particles, maxiter, verbose=False):
 
 if __name__ == "__main__":
     # --- RUN ----------------------------------------------------------------------+
-    seed = 4
+    seed = 444
     random.seed(seed)
     x0 = [16, 0.0005, 0.6]
     bounds = [(4, 128), (1e-6, 1e-2), (0.1, 5)]
-    opt = minimize(get_map, x0, bounds, num_particles=25, maxiter=20, verbose=False)
+    opt = minimize(get_map, x0, bounds, num_particles=10, maxiter=15, verbose=False)

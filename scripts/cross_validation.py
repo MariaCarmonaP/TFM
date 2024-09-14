@@ -13,8 +13,7 @@ from torch import cuda
 dataset_path = Path(
     os.environ["ROOT_DIR"], r"data/datasets/filtered_DATASET_v2"
 )
-labels = sorted((dataset_path / "labels").rglob("*/*.txt"))
-
+labels = sorted((dataset_path / "labels").rglob("*.txt"))
 yaml_file = Path(
     os.environ["ROOT_DIR"], r"data/datasets/filtered_DATASET_v2/cfg.yaml"
 )  # your data YAML with data directories and names dictionary
@@ -38,7 +37,8 @@ for label in labels:
     labels_df.loc[label.stem] = lbl_counter
 
 ksplit = 4
-kf = KFold(n_splits=ksplit, shuffle=True, random_state=4)  # setting random_state for repeatable results
+
+kf = KFold(n_splits=ksplit, shuffle=True, random_state=444)  # setting random_state for repeatable results
 
 kfolds = list(kf.split(labels_df))
 
@@ -67,7 +67,7 @@ images = []
 
 # Loop through supported extensions and gather image files
 for ext in supported_extensions:
-    images.extend(sorted((dataset_path / "images").rglob(f"*/*{ext}")))
+    images.extend(sorted((dataset_path / "images").rglob(f"*{ext}")))
 
 # Create the necessary directories and dataset YAML files (unchanged)
 save_path = Path(dataset_path / f"{datetime.date.today().isoformat()}_{ksplit}-Fold_Cross-val")
@@ -131,23 +131,22 @@ for k in range(ksplit):
     dataset_yaml = ds_yamls[k]
     model.train(
         data=dataset_yaml,
-        project=r"/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_3",
+        project=r"/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_5",
         name=f"{k}_fold",
         epochs=40,
-        #patience=5,
         imgsz=608,
         device="cuda:0" if cuda.is_available() else "cpu",
         exist_ok=True,
-        seed=4,
+        seed=443,
         optimizer="Adam",
-        close_mosaic=0,
-        hsv_h=0,
-        hsv_s=0,
-        hsv_v=0,
-        translate=0,
-        scale=0,
-        fliplr=0,
-        mosaic=0,
+        # close_mosaic=0,
+        # hsv_h=0,
+        # hsv_s=0,
+        # hsv_v=0,
+        # translate=0,
+        # scale=0,
+        # fliplr=0,
+        # mosaic=0,
         cos_lr=True,
         batch=batch,
         lr0=0.0010192339694602597,
@@ -159,10 +158,8 @@ for k in range(ksplit):
     results[k] = model.val()  # save output metrics for further analysis
     try:
         # Save output metrics to a file
-        with open("/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_3/output_metrics.json", "w") as f:
+        with open(f"/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_5/output_metrics_{k}.json", "w") as f:
             json.dump(results[k].results_dict, f)
             
-        with open("/home/maria/TFM/data/results/filtered_DATASET_v2/kfold_3/output_metrics.txt", "w") as f:
-            f.write(results[k].results_dict)
     except Exception:
         pass
